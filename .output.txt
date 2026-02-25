@@ -1,0 +1,2049 @@
+On branch main
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   ../frontend/AUTHENTICATION_README.md
+        modified:   ../frontend/FILE_STRUCTURE.md
+        modified:   ../frontend/FIXES_APPLIED.md
+        modified:   ../frontend/GIT_COMMIT_GUIDE.md
+        modified:   ../frontend/NAVIGATION_GUIDE.md
+        modified:   ../frontend/git-setup.sh
+        modified:   ../frontend/public/LOGO_INSTRUCTIONS.txt
+        deleted:    ../frontend/public/lightning-line-logo-temp.svg
+        modified:   ../frontend/src/components/Logo.tsx
+        modified:   ../frontend/src/components/index.ts
+        modified:   ../frontend/src/components/kiosk/index.ts
+        deleted:    ../frontend/src/pages/AdminDashboard.tsx
+        deleted:    ../frontend/src/pages/AdminLoginPage.tsx
+        modified:   ../frontend/src/pages/LandingPage.tsx
+        deleted:    ../frontend/src/pages/StaffDashboardPage.tsx
+        deleted:    ../frontend/src/pages/StaffLoginPage.tsx
+        deleted:    ../frontend/src/pages/StaffPersonalDashboard.tsx
+        deleted:    ../frontend/src/pages/TicketDisplayPage.tsx
+        modified:   ../frontend/src/pages/admin/index.ts
+        modified:   ../frontend/src/pages/customer/index.ts
+        modified:   ../frontend/src/pages/index.ts
+        modified:   ../frontend/src/pages/staff/index.ts
+        modified:   ../frontend/src/services/index.ts
+        modified:   ../frontend/src/utils/index.ts
+        modified:   ../info3180-lab1/static/css/app.css
+        deleted:    ../info3180-lab1/static/profile.jpg
+        modified:   ../info3180-lab2-main/app/static/css/app.css
+        modified:   ../info3180-lab2-main/app/templates/header.html
+        modified:   ../info3180-lab2-main/app/templates/profile.html
+        modified:   ../info3180-lab2-main/app/views.py
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../# 1 - Initial Reflection  + Rubric - Semester 1, 2022-23 (1).pdf
+        ../# 1 - Initial Reflection  + Rubric - Semester 1, 2022-23.pdf
+        ../# 1 - Initial Reflection  + Rubric - Semester 2, 2022-23.pdf
+        ../# 2 - Proposal -Scientific Research Paper (SRP) - Semester 2, 2022-23.pdf
+        ../# 3 - Annotated Source  Synthesis + RUBRIC- Semester 2, 2022-2023-2.pdf
+        ../# 3 - Annotated Source  Synthesis + RUBRIC- Semester 2, 2022-2023-3.pdf
+        ../# 3 - Annotated Source  Synthesis + RUBRIC- Semester 2, 2022-2023-4.pdf
+        ../# 3 - Annotated Source  Synthesis + RUBRIC- Semester 2, 2022-2023-5.pdf
+        ../# 3 - Annotated Source  Synthesis + RUBRIC- Semester 2, 2022-2023.pdf
+        ../# 4 - SRP Plan + RUBRIC - Semester 2,  2022-23.pdf
+        ../# 5 - Self- and Peer-Review Guidelines + Activity + RUBRIC - Semester 2, 2022-23 (1).pdf
+        ../# 5 - Self- and Peer-Review Guidelines + Activity + RUBRIC - Semester 2, 2022-23 (2).pdf
+        ../# 5 - Self- and Peer-Review Guidelines + Activity + RUBRIC - Semester 2, 2022-23 (3).pdf
+        ../# 5 - Self- and Peer-Review Guidelines + Activity + RUBRIC - Semester 2, 2022-23.pdf
+        ../# 8 - Final Reflection - Semester 2, 2022-2023 (with Rubric).pdf
+        ../.DS_Store
+        ../.Lab01.circ.autosave
+        ../.localized
+        ../0-Figma-Link+UI-UX-Udemy-UjjwalSingh.pdf
+        ../042bc82a-b45c-477d-a765-bede8dbead06.jpg
+        ../0684-blog-digital-literacy.png
+        ../0e421cfedba02fcc5ae2d79ed9accf454e11b090-2.asc
+        ../0e421cfedba02fcc5ae2d79ed9accf454e11b090.asc
+        ../1. Structure  function of DNA_2017o.ppt
+        ../1126 midsemester batch 1 (1).pdf
+        ../1126 midsemester batch 1 (2).pdf
+        ../1126 midsemester batch 1 (3).pdf
+        ../1126 midsemester batch 1 (4).pdf
+        ../1126 midsemester batch 1.pdf
+        ../1127 ASSIGNMENT 2023 (1).py
+        ../1127 ASSIGNMENT 2023.py
+        ../11EPBSCOLLABORATIONS.jpeg
+        ../1210 incourse test 2 (last sem 2023) .pdf
+        ../125979886.pdf
+        ../126192-3840x2160-desktop-4k-game-of-thrones-wallpaper-photo.jpg
+        ../1262 Marathon (1).pdf
+        ../1262 Marathon.pdf
+        ../138SL Application Form  2024 2025 Web Version copy.pdf
+        ../1889787.jpg
+        ../1890924.jpg
+        ../1891009.jpg
+        ../1910 compilation (1).pdf
+        ../1910 compilation (2).pdf
+        ../1910 compilation-1.pdf
+        ../1910 compilation.pdf
+        ../1920 COMPILATION (1).pdf
+        ../1920 IC2.pdf
+        ../1948724521 - Lisa Lindsay micr-1011_Pipetting_and_Dilution.docx.pdf
+        ../1B. Computer Evolution-2.pdf
+        ../1B. Computer Evolution-3.pdf
+        ../1B. Computer Evolution-4.pdf
+        ../1B. Computer Evolution-5.pdf
+        ../1B. Computer Evolution-6.pdf
+        ../1B. Computer Evolution.pdf
+        ../2. Chromosome structure_2017o.ppt
+        ../2. Data Representation in Computers-2.pdf
+        ../2. Data Representation in Computers.pdf
+        ../20200313145933_8169.doc
+        ../2021-2022 BIOL1262 WORKSHEET #2 - Pteridophytes (Fillable)-2.pdf
+        ../2021-2022 BIOL1262 WORKSHEET #2 - Pteridophytes (Fillable)-3.pdf
+        ../2021-2022 BIOL1262 WORKSHEET #2 - Pteridophytes (Fillable).pdf
+        ../2022 CHEM1810 Lecture 1-2.pdf
+        ../2022 CHEM1810 Lecture 1-3.pdf
+        ../2022 CHEM1810 Lecture 1-4.pdf
+        ../2022 CHEM1810 Lecture 1-5.pdf
+        ../2022 CHEM1810 Lecture 1-6.pdf
+        ../2022 CHEM1810 Lecture 1-7.pdf
+        ../2022 CHEM1810 Lecture 1-8.pdf
+        ../2022 CHEM1810 Lecture 1-9.pdf
+        ../2022 CHEM1810 Lecture 1.pdf
+        ../2022 CHEM1810 Lecture 2-2.pdf
+        ../2022 CHEM1810 Lecture 2-3.pdf
+        ../2022 CHEM1810 Lecture 2.pdf
+        ../2022 CHEM1810 Lecture 7-2.pdf
+        ../2022 CHEM1810 Lecture 7.pdf
+        ../2022 CHEM1810 Lecture 8 copy.pdf
+        ../2022 CHEM1810 Lecture 8-2.pdf
+        ../2022 CHEM1810 Lecture 8-3.pdf
+        ../2022 CHEM1810 Lecture 8.pdf
+        ../2022-2023 BIOL1017 Laboratory Worksheet for Lab#2b.docx
+        ../2022-2023 BIOL1017 Lecture 1 - Cell Theory.pdf
+        ../2022-2023 BIOL1017 Lecture 2 - Prokaryotic Cell Organisation.pdf
+        ../2022-2023 BIOL1017 Lecture 3 - Eukaryote Cell Organisation.pdf
+        ../2022-2023 BIOL1017 Lecture 5 - Cellular membranes.pdf
+        ../2022-2023 BIOL1017 Lecture 6 - Cellular Transport-2.pdf
+        ../2022-2023 BIOL1017 Lecture 6 - Cellular Transport-3.pdf
+        ../2022-2023 BIOL1017 Lecture 6 - Cellular Transport.pdf
+        ../2022-2023 BIOL1017 Lecture 7 - Extracellular matrix  Cell Interactions.pdf
+        ../2022-2023 BIOL1017 Lecture 8 - Cell Specialisation.pdf
+        ../2022-2023 BIOL1017 Lecture 9 - Plant  Animal Tissues.pdf
+        ../2022-2023 BIOL1017 Tutorial Test #1 Results (1).pdf
+        ../2022-2023 BIOL1017 Tutorial Test #1 Results.pdf
+        ../2022-2023 Lecture 3 - Bryophytes I copy.pdf
+        ../2022-2023 Lecture 3 - Bryophytes I.pdf
+        ../2022-2023 Lecture 4 - Bryophytes II-updated copy.pdf
+        ../2022-2023%20Academic%20Calendar%20.pdf.pdf
+        ../2023-04-11_183047.pdf
+        ../2024 MATH.pdf
+        ../20250419_217081463_14_1325684-1049728.pdf
+        ../2058734.jpg
+        ../2067051.jpg
+        ../212811.jpg
+        ../2171.drawio
+        ../222628fdc510e8e5ca7dd09ad9cb8a157dc2ebf8.asc
+        ../2880737.png
+        ../288747.jpg
+        ../2F35FA14-B454-456C-9360-574FD28D7B8F.JPEG
+        ../2YKTMGF-children-in-school-auditorium.mp3
+        ../2b19a4f6-4fc6-4ba9-83f3-10683aacfd2b.JPG
+        ../2bc7a36fa8e33dc29eb2c410efdda2efb04d42b9.jpg
+        ../3. DNA replication_2017o-2.ppt
+        ../3. DNA replication_2017o-3.ppt
+        ../3. DNA replication_2017o-4.ppt
+        ../3. DNA replication_2017o-4.pptx
+        ../3. DNA replication_2017o-5.ppt
+        ../3. DNA replication_2017o-6.ppt
+        ../3. DNA replication_2017o-7.ppt
+        ../3. DNA replication_2017o-8.ppt
+        ../3. DNA replication_2017o-9.ppt
+        ../3. DNA replication_2017o.ppt
+        ../3003445.jpg
+        ../3115119.jpg
+        ../3161-Assignment 1.docx
+        ../3161-Assignment 1/
+        ../3161Assignment1.drawio
+        ../335f718d77bf3cb4f36a180b01065999dbd90a02.asc
+        ../4. Combinational Digital Logic_40fcf65a160ab4f208871418cf65e36d.pdf
+        ../4. From DNA to protein I_2020.ppt
+        ../4.3_video_slides.pptx
+        ../4.5_video_slides.pptx
+        ../40398856.html
+        ../4127836.jpg
+        ../4224182.jpg
+        ../4_2019_12_22!07_39_09_PM.pptx
+        ../5. From DNA to protein II_2011o.ppt
+        ../514181245-Econ1005-Course-Guide-Students-Semester-2-2009-10-Updated2.pdf
+        ../5234566.jpg
+        ../5311151.jpg
+        ../5311159.jpg
+        ../53b5c37e6fd821ef6569d5912d3d1cb5fe135a9d-2.asc
+        ../5733842.jpg
+        ../5733882.jpg
+        ../5733885.jpg
+        ../5733892.jpg
+        ../5733895.jpg
+        ../5734251.jpg
+        ../5734319.jpg
+        ../5734323.jpg
+        ../5734351.jpg
+        ../5734392.jpg
+        ../5734432.jpg
+        ../6. An overview of Gene Control_2014o.ppt
+        ../6144x3456 Rick And Morty 4K Wallpaper
+        ../620137495 -Assignment 0.pdf
+        ../620137495 2/.DS_Store
+        ../620137495 2/.idea/.gitignore
+        ../620137495 2/.idea/material_theme_project_new.xml
+        ../620137495 2/.idea/misc.xml
+        ../620137495 2/.idea/modules.xml
+        ../620137495 2/NumTheory.py
+        ../620137495 2/Part AC-RSA Encryption.docx
+        ../620137495 2/Part B-Using PGP.docx
+        ../620137495 2/PrivateKeyComputation.py
+        "../620137495 2/Ravaughn Marsh (DBD90A02) \342\200\223 Public.asc"
+        "../620137495 2/Screenshot 2024-11-20 at 11.27.04\342\200\257AM.png"
+        "../620137495 2/Screenshot 2024-11-20 at 11.39.58\342\200\257AM.png"
+        "../620137495 2/Screenshot 2024-11-20 at 8.23.02\342\200\257AM.png"
+        "../620137495 2/Screenshot 2024-11-21 at 12.43.18\342\200\257AM.png"
+        "../620137495 2/Screenshot 2024-11-21 at 12.43.30\342\200\257AM.png"
+        "../620137495 2/Screenshot 2024-11-21 at 3.39.35\342\200\257PM.png"
+        "../620137495 2/Screenshot 2024-11-21 at 3.40.36\342\200\257PM.png"
+        "../620137495 2/Screenshot 2024-11-21 at 4.24.19\342\200\257PM.png"
+        ../620137495 2/WhatsApp Image 2024-11-20 at 11.27.36 (1).jpeg
+        ../620137495 2/WhatsApp Image 2024-11-20 at 11.27.36.jpeg
+        ../620137495 2/WhatsApp Image 2024-11-20 at 11.27.37.jpeg
+        ../620137495 2/WhatsApp Image 2024-11-20 at 11.29.17.jpeg
+        ../620137495 2/__pycache__/
+        ../620137495 2/crypto_client.py
+        ../620137495 2/crypto_server.py
+        ../620137495 2/private_key_utils.py
+        ../620137495 2/private_key_utils.py.save
+        ../620137495 2/project_root/
+        ../620137495 2/simplified_AES.py
+        ../620137495 2/tests/
+        ../620137495-ravaughn_13-9.17.txt
+        ../620137495.zip
+        ../620137495/.DS_Store
+        ../620137495/.idea/.gitignore
+        ../620137495/.idea/copilot.data.migration.agent.xml
+        ../620137495/.idea/copilot.data.migration.ask.xml
+        ../620137495/.idea/copilot.data.migration.ask2agent.xml
+        ../620137495/.idea/copilot.data.migration.edit.xml
+        ../620137495/.idea/material_theme_project_new.xml
+        ../620137495/.idea/misc.xml
+        ../620137495/.idea/modules.xml
+        ../620137495/Final User Documentation.pdf
+        ../620137495/NumTheory.py
+        ../620137495/crypto_client.py
+        ../620137495/crypto_server.py
+        ../620137495/ravaughnkey.asc
+        ../620137495/simplified_AES.py
+        ../620137495_620162352_620137009_SpecialGs/.gitignore
+        ../620137495_620162352_620137009_SpecialGs/.idea/
+        ../620137495_620162352_620137009_SpecialGs/Drivers.dat
+        ../620137495_620162352_620137009_SpecialGs/Special T.S User Manual.docx
+        ../620137495_620162352_620137009_SpecialGs/SpecializedVehicles.dat
+        ../620137495_620162352_620137009_SpecialGs/Users.dat
+        ../620137495_620162352_620137009_SpecialGs/src/
+        ../620137495_lab2.xlsm
+        ../620137495_lab5.zip
+        ../620137495_ravaughn_13_10.docx
+        ../620137495ravaughn_1310.docx
+        ../620137495ravaughn_13_10.docx
+        ../620137r495.zip
+        ../637645.jpg
+        ../63A429AE-88A4-49ED-B025-74D9E863AE61.PNG
+        ../6b8315a6-b6e6-47d5-ad23-68f1c72df715.JPG
+        ../7. Recombinant DNA technology_14o.ppt
+        ../7b071912-4e3c-4440-92d0-38f38f888efa.JPG
+        ../8045738.jpg
+        ../8045744.jpg
+        ../8045774.jpg
+        ../805233257155495.doc
+        ../936AEE49-664C-49F0-9A3A-BD355D145CBA.JPEG
+        ../940348.jpg
+        ../AFRICAN METHODIST EPISCOPAL CHURCH- ypd report quarter 1 Conference Year 2022 to 2023 (1).docx
+        ../AFRICAN METHODIST EPISCOPAL CHURCH- ypd report quarter 1 Conference Year 2022 to 2023 (2).docx
+        ../AFRICAN METHODIST EPISCOPAL CHURCH- ypd report quarter 1 Conference Year 2022 to 2023/
+        ../APA Document FORMAT - Annotated Source  Synthesis _230223_191459.docx
+        ../ATS_Resume.docx
+        ../Aalyia's Answers.docx
+        ../Academic-Integrity copy.pdf
+        ../Animation project scene 1-1.zip
+        ../Animation project scene 1.mp4
+        ../Animation project scene 1.zip
+        ../Annelid Demonstration.pdf
+        ../Annotated Source and Synthesis (1) (1).docx
+        ../Annotated Source and Synthesis (1).docx
+        ../Annotated Source and Synthesis.docx
+        ../Annotated source (draft) .docx
+        ../Answers to Final Practice Packet - updated - June 2020.pdf
+        ../Answers to Final Practice Packet.pdf
+        ../Answers to Mid Term 1 Practice Packet vs2 - CORRECT2.pdf
+        ../Answers to vs3 Mid Semester 2 Practice Packet.pdf
+        ../Aseptic Technique-Putting Gloves On  Glove Removal.mp4
+        ../Assignment.jpg
+        ../Assignment1/
+        ../B Pharm Information.pdf
+        ../BIOL 1263 Schedule and Manual 2022-2023 Part A copy.pdf
+        ../BIOL1017 Exam Paper December 2010 (1).pdf
+        ../BIOL1017 Exam Paper December 2010 (2).pdf
+        ../BIOL1017 Exam Paper December 2010 (3).pdf
+        ../BIOL1017 Exam Paper December 2010 (4).pdf
+        ../BIOL1017 Exam Paper December 2010 (5).pdf
+        ../BIOL1017 Exam Paper December 2010.pdf
+        ../BIOL1017 Exam Paper December 2011.pdf
+        ../BIOL1017 Exam Paper December 2012.pdf
+        ../BIOL1017 In-course Exam Answers 2015 (1).pdf
+        ../BIOL1017 In-course Exam Answers 2015.pdf
+        ../BIOL1017 In-course Exam Answers 2016.pdf
+        ../BIOL1017 Past Paper 2011_211129_075633.pdf
+        ../BIOL1017 Past Paper 2012.pdf
+        ../BIOL1017 Past Paper 2017_211129_075701.pdf
+        ../BIOL1017 Past Paper 2018.pdf
+        ../BIOL1017 Tutorial week 7.pdf
+        ../BIOL1017_Exam_PaperDecember_2011 (1).pdf
+        ../BIOL1017_Exam_PaperDecember_2011 (2).pdf
+        ../BIOL1017_Exam_PaperDecember_2011 2.pdf
+        ../BIOL1017_Exam_PaperDecember_2011 3.pdf
+        ../BIOL1017_Exam_PaperDecember_2011.pdf
+        ../BIOL1017_Exam_Paper_December_2010 (1).pdf
+        ../BIOL1017_Exam_Paper_December_2010 (2).pdf
+        ../BIOL1017_Exam_Paper_December_2010 2.pdf
+        ../BIOL1017_Exam_Paper_December_2010 3.pdf
+        ../BIOL1017_Exam_Paper_December_2010.pdf
+        ../BIOL1018 Genetics Practical #3A Worksheet.docx
+        ../BIOL1018 Genetics Practical #3B - Instructions.pdf
+        ../BIOL1018 Genetics Practical #3B Worksheet.docx
+        ../BIOL1018 Genetics Practical #4A - Instructions.pdf
+        ../BIOL1018 Genetics Practical #4A Worksheet.docx
+        ../BIOL1018 Genetics Practical #4B - Instructions.pdf
+        ../BIOL1018 Genetics Practical #4B Worksheet.docx
+        ../BIOL1018 Tutorial worksheet 2.docx
+        ../BIOL1262 LAB 3 Worksheet 2021-2022 copy.pdf
+        ../BIOL1262 Lecture 10 Angiosperms II.pdf
+        ../BIOL1262 WORKSHEET #1 (2023) copy 2.pdf
+        ../BIOL1262 WORKSHEET #1 (2023) copy.pdf
+        ../BIOL1262 tutorial answers.docx
+        ../BIOL1263 15 Chordata Vertebrata Aves 2021 copy.pdf
+        ../BIOL1263 Practical 5 Worksheet 2023.docx
+        ../Background.jpg.avif
+        ../Basic Calculations Workshop_in lab AY22-23.pptx
+        ../Bazerman - Chapter 3 - Paraphrasing.pdf
+        ../Bazerman - Chapter4 - Summarizing.pdf
+        ../Best-Free-Online-Information-Technology-Courses-1280x720.jpg
+        ../Bio Drawings Ravaughn Marsh -620137484.jpg
+        ../Bio Drawings Ravaughn Marsh -620137485.jpg
+        ../Bio Drawings Ravaughn Marsh -620137486.jpg
+        ../Bio Drawings Ravaughn Marsh -620137487.jpg
+        ../Bio Drawings Ravaughn Marsh -620137488.jpg
+        ../Bio Drawings Ravaughn Marsh -620137489.jpg
+        ../Bio Drawings Ravaughn Marsh -620137490.jpg
+        ../Bio Drawings Ravaughn Marsh -620137491.jpg
+        ../Bio Drawings Ravaughn Marsh -620137492.jpg
+        ../Bio Drawings Ravaughn Marsh -620137493.jpg
+        ../Bio Drawings Ravaughn Marsh -620137494-2.pdf
+        ../Bio Drawings Ravaughn Marsh -620137494-3.pdf
+        ../Bio Drawings Ravaughn Marsh -620137494.jpg
+        ../Bio Drawings Ravaughn Marsh -620137494.pdf
+        ../Bio Drawings Ravaughn Marsh -620137495.jpg
+        ../Bio Drawings Ravaughn Marsh -620137495.pdf
+        ../Bio Drawings Ravaughn Marsh -620137495_1.jpg
+        ../Bio Drawings Ravaughn Marsh -620137495_10.jpg
+        ../Bio Drawings Ravaughn Marsh -620137495_2.jpg
+        ../Bio Drawings Ravaughn Marsh -620137495_3.jpg
+        ../Bio Drawings Ravaughn Marsh -620137495_4.jpg
+        ../Bio Drawings Ravaughn Marsh -620137495_5.jpg
+        ../Bio Drawings Ravaughn Marsh -620137495_6.jpg
+        ../Bio Drawings Ravaughn Marsh -620137495_7.jpg
+        ../Bio Drawings Ravaughn Marsh -620137495_8.jpg
+        ../Bio Drawings Ravaughn Marsh -620137495_9.jpg
+        ../Bio.pdf
+        ../Blue Political Election Flyer-2/
+        ../Blue Political Election Flyer-3/
+        ../Blue Political Election Flyer-4/
+        ../Blue Political Election Flyer/
+        ../Boarding Pass - SCCEOC - MBJ-MCO.pdf
+        ../Book Review Carib Civ with Audio.pptx
+        ../C9E94AAA-6654-4578-B8D6-FBBE52BCD05E.JPEG
+        ../CAPSTONE Front End Layout/
+        ../CHEM 1902 Lecture 1 Revised.pdf
+        ../CHEM 1902 Lecture 2.pdf
+        ../CHEM10 TUT (1).docx
+        ../CHEM10 TUT.docx
+        ../CHEM1810 Lecture 1 - 2022.pptx
+        ../CHEM1810 Lecture 2 - 2022.pptx
+        ../CHEM1810 Lecture 3 - 2022.pptx
+        ../CHEM1810 Lecture 3-2.pdf
+        ../CHEM1810 Lecture 3.pdf
+        ../CHEM1810 Lecture 4.pptx
+        ../CHEM1810 Lecture 4c-10.pdf
+        ../CHEM1810 Lecture 4c-11.pdf
+        ../CHEM1810 Lecture 4c-12.pdf
+        ../CHEM1810 Lecture 4c-13.pdf
+        ../CHEM1810 Lecture 4c-14.pdf
+        ../CHEM1810 Lecture 4c-15.pdf
+        ../CHEM1810 Lecture 4c-16.pdf
+        ../CHEM1810 Lecture 4c-17.pdf
+        ../CHEM1810 Lecture 4c-18.pdf
+        ../CHEM1810 Lecture 4c-19.pdf
+        ../CHEM1810 Lecture 4c-2.pdf
+        ../CHEM1810 Lecture 4c-20.pdf
+        ../CHEM1810 Lecture 4c-21.pdf
+        ../CHEM1810 Lecture 4c-22.pdf
+        ../CHEM1810 Lecture 4c-23.pdf
+        ../CHEM1810 Lecture 4c-24.pdf
+        ../CHEM1810 Lecture 4c-25.pdf
+        ../CHEM1810 Lecture 4c-26.pdf
+        ../CHEM1810 Lecture 4c-27.pdf
+        ../CHEM1810 Lecture 4c-28.pdf
+        ../CHEM1810 Lecture 4c-29.pdf
+        ../CHEM1810 Lecture 4c-3.pdf
+        ../CHEM1810 Lecture 4c-4.pdf
+        ../CHEM1810 Lecture 4c-5.pdf
+        ../CHEM1810 Lecture 4c-6.pdf
+        ../CHEM1810 Lecture 4c-7.pdf
+        ../CHEM1810 Lecture 4c-8.pdf
+        ../CHEM1810 Lecture 4c-9.pdf
+        ../CHEM1810 Lecture 4c.pdf
+        ../CHEM1810 Lecture 5-2.pdf
+        ../CHEM1810 Lecture 5-3.pdf
+        ../CHEM1810 Lecture 5-4.pdf
+        ../CHEM1810 Lecture 5-5.pdf
+        ../CHEM1810 Lecture 5-6.pdf
+        ../CHEM1810 Lecture 5-7.pdf
+        ../CHEM1810 Lecture 5.pdf
+        ../CHEM1810 Lecture 5.pptx
+        ../CHEM1810 Lecture 6 Updated.pdf
+        ../CHEM1810 Lecture 6.pptx
+        ../CHEM1820KineticsLecture 1.ppt
+        ../CHEM1820KineticsLecture 2.ppt
+        ../CHEM1820KineticsLecture 3.ppt
+        ../CHEM1820KineticsLecture 4.ppt
+        ../CHEM1910 Inorganic Lecture 5.pdf
+        ../CHEM1910 Inorganic lecture 1_Introduction and Review.pdf
+        ../CHEM1910 Inorganic lecture 2 copy.pdf
+        ../CHEM1920 Lecture 1  2.pdf
+        ../CHEM1920 Lecture 18v2.pdf
+        ../CHEM1920 Lecture 19.pdf
+        ../CHEM1920 Lecture 1v2-2.pdf
+        ../CHEM1920 Lecture 1v2-3.pdf
+        ../CHEM1920 Lecture 1v2-4.pdf
+        ../CHEM1920 Lecture 1v2.pdf
+        ../CHEM1920 Lecture 20.pdf
+        ../CHEM1920 Lecture 2v2-2.pdf
+        ../CHEM1920 Lecture 2v2.pdf
+        ../CHEM1920 Lecture 7v2.pdf
+        ../CHEM1920 lecture 15.pdf
+        ../COMP1126 further Practice Qs (1).pdf
+        ../COMP1126 further Practice Qs.pdf
+        ../COMP1126_Lab1 - Functions and Conditions (1).pdf
+        ../COMP1126_Lab1 - Functions and Conditions (2).pdf
+        ../COMP1126_Lab1 - Functions and Conditions.pdf
+        ../COMP1126_Lab2 - Condtions and Loops-2.pdf
+        ../COMP1126_Lab2 - Condtions and Loops.pdf
+        ../COMP1127 Finals Marathon part 1 (1).pdf
+        ../COMP1127 further practice Qs.pdf
+        ../COMP1127 practice SAQs 2.pdf
+        ../COMP1127 practice SAQs.pdf
+        ../COMP1127_further_practice_Qs.pdf.pdf
+        ../COMP1127_practice_SAQs.pdf.pdf
+        ../COMP1161 Past Papers and Answers 2019.docx
+        ../COMP1161 Past Papers and Answers 2019/
+        ../COMP1210.pdf
+        ../COMP1210_04122018.pdf.pdf
+        ../COMP1210_15122017.pdf.pdf
+        ../COMP1220 2018-19 Sem I exam print (1).pdf
+        ../COMP1220 2018-19 Sem I exam print (2).pdf
+        ../COMP1220 2018-19 Sem I exam print (3).pdf
+        ../COMP1220 2018-19 Sem I exam print (4).pdf
+        ../COMP1220 2018-19 Sem I exam print (5).pdf
+        ../COMP1220 2018-19 Sem I exam print (6).pdf
+        ../COMP1220 2018-19 Sem I exam print.pdf
+        ../COMP1220 Animation Doc.docx
+        ../COMP1220 DOC (1).pdf
+        ../COMP1220 DOC.pdf
+        ../COMP1220 Final Exam Sem I 2020-21.pdf
+        ../COMP1220 Finals.pdf
+        ../COMP1220 Project 1 Animation Sem I 2023-24 (1).docx
+        ../COMP1220 Project 1 Animation Sem I 2023-24.docx
+        ../COMP1220_Finals__1_.pdf.pdf
+        ../COMP2140- Group 1 SRS Document.docx
+        ../COMP2140-project-main-5/
+        ../COMP2140-project-main/.DS_Store
+        ../COMP2140-project-main/.idea/
+        ../COMP2140-project-main/1.jpg
+        ../COMP2140-project-main/10.jpg
+        ../COMP2140-project-main/11.jpg
+        ../COMP2140-project-main/12.jpg
+        ../COMP2140-project-main/13.jpg
+        ../COMP2140-project-main/14.jpg
+        ../COMP2140-project-main/15.jpg
+        ../COMP2140-project-main/16.jpeg
+        ../COMP2140-project-main/2.jpg
+        ../COMP2140-project-main/3.jpg
+        ../COMP2140-project-main/4.jpg
+        ../COMP2140-project-main/5.jpg
+        ../COMP2140-project-main/6.jpg
+        ../COMP2140-project-main/7.jpg
+        ../COMP2140-project-main/8.jpg
+        ../COMP2140-project-main/9.jpg
+        ../COMP2140-project-main/Booklist/
+        ../COMP2140-project-main/Calendar.js
+        ../COMP2140-project-main/FeedbackServlet.js
+        ../COMP2140-project-main/Forms/
+        ../COMP2140-project-main/README.md
+        ../COMP2140-project-main/SchoolDashboard.html
+        ../COMP2140-project-main/__init__.py
+        ../COMP2140-project-main/admin-dashboard.css
+        ../COMP2140-project-main/admin.css
+        ../COMP2140-project-main/admin.js
+        ../COMP2140-project-main/app.py
+        ../COMP2140-project-main/backdrop.JPG
+        ../COMP2140-project-main/booklistformadmin.html
+        ../COMP2140-project-main/calendar.css
+        ../COMP2140-project-main/calendar.html
+        ../COMP2140-project-main/calendar_server.js
+        ../COMP2140-project-main/config.py
+        ../COMP2140-project-main/connect.php
+        ../COMP2140-project-main/contact_teacher.html
+        ../COMP2140-project-main/docindex.html
+        ../COMP2140-project-main/event_log.txt
+        ../COMP2140-project-main/feedback-styles.css
+        ../COMP2140-project-main/feedback.jpg
+        ../COMP2140-project-main/feedbackForm.html
+        ../COMP2140-project-main/form.html
+        ../COMP2140-project-main/form.js
+        ../COMP2140-project-main/gallery-styles.css
+        ../COMP2140-project-main/gallery.html
+        ../COMP2140-project-main/grade1booklist.pdf
+        ../COMP2140-project-main/grade2booklist.pdf
+        ../COMP2140-project-main/grade3booklist.pdf
+        ../COMP2140-project-main/grade4booklist.pdf
+        ../COMP2140-project-main/grade5booklist.pdf
+        ../COMP2140-project-main/grade6booklist.pdf
+        ../COMP2140-project-main/index.html
+        ../COMP2140-project-main/infant1booklist.pdf
+        ../COMP2140-project-main/infant2booklist.pdf
+        ../COMP2140-project-main/infant3booklist.pdf
+        ../COMP2140-project-main/log.txt
+        ../COMP2140-project-main/login.css
+        ../COMP2140-project-main/login.html
+        ../COMP2140-project-main/login.js
+        ../COMP2140-project-main/logo.jpeg
+        ../COMP2140-project-main/main.css
+        ../COMP2140-project-main/main.html
+        ../COMP2140-project-main/main.js
+        ../COMP2140-project-main/manage_events.html
+        ../COMP2140-project-main/manage_events.js
+        ../COMP2140-project-main/managebooklistform.php
+        ../COMP2140-project-main/models.py
+        ../COMP2140-project-main/node_modules/
+        ../COMP2140-project-main/package-lock.json
+        ../COMP2140-project-main/package.json
+        ../COMP2140-project-main/photos.png
+        ../COMP2140-project-main/pic1.JPG
+        ../COMP2140-project-main/pic2.JPG
+        ../COMP2140-project-main/pic3.jpg
+        ../COMP2140-project-main/pic4.JPG
+        ../COMP2140-project-main/requirements.txt
+        ../COMP2140-project-main/routes.py
+        ../COMP2140-project-main/run.py
+        ../COMP2140-project-main/school.db
+        ../COMP2140-project-main/script.js
+        ../COMP2140-project-main/server.php
+        ../COMP2140-project-main/style.css
+        ../COMP2140-project-main/styles.css
+        ../COMP2140-project-main/styles[1].css
+        ../COMP2140-project-main/teacherstyles.css
+        ../COMP2140-project-main/upload.css
+        ../COMP2140-project-main/upload.html
+        ../COMP2140-project-main/upload.js
+        ../COMP2140-project-main/view-book-list.php
+        ../COMP2140-project-main/view-forms.php
+        ../COMP2140-project-main/viewformsbooklists.js
+        ../COMP2140-project-main/web_app_configuration.xml
+        ../COMP2140_Mid_Semester_25outof40_merged.pdf.pdf
+        ../COMP2171 Revision Guide.pdf
+        ../COMP2171_03052023.pdf
+        ../COMP2190 - July 2023.pdf
+        ../COMP2190_FINAL_EXAM_JULY_2023.pdf.pdf
+        ../COMP2201 Assignment 1 - Sem 1 2023-2024.docx
+        ../COMP2201 Assignment 1 - Sem 1 2023-2024/
+        ../COMP2201 Assignment 1 - Sem 1 2024-2025-2.docx
+        ../COMP2201 Assignment 1 - Sem 1 2024-2025-620137495.docx
+        ../COMP2201 Assignment 1 - Sem 1 2024-2025.docx
+        ../COMP2201 Assignment 2 - Sem 1 2023-2024 - Solution.pdf
+        ../COMP2201 Assignment 2 - Sem 1 2024-2025.docx
+        ../COMP2201 MID-SEMESTER 2024-2025 INSTRUCTIONS-2.pptx
+        ../COMP2201 MID-SEMESTER 2024-2025 INSTRUCTIONS.pptx
+        ../COMP2201 Overview 2024-2025.pptx
+        ../COMP2201_Assignment_1___Sem_1_2021_2022___Solution.pdf.pdf
+        ../COMP2201_Assignment_1___Sem_1_2022_2023___620144363.docx.pdf
+        ../COMP2201_Tutorial_3_Basics_Of_Counting_Pt1-Q5_Solns.docx
+        ../COMP2211 - Analysis of Algorithms 2/
+        ../COMP2211 - Analysis of Algorithms 3/
+        ../COMP2211 - Analysis of Algorithms.zip
+        ../COMP2211 - Analysis of Algorithms/
+        ../COMP2211 Analysis of Algorithms April 2023.pdf
+        ../COMP2211 Analysis of Algorithms April 2024.pdf
+        ../COMP2211 Analysis of Algorithms April 2025.pdf
+        ../COMP2211 Analysis of Algorithms April 2026.pdf
+        ../COMP2211_24042023.pdf
+        ../COMP2340-202220.pdf
+        ../COMP2340-202240.pdf
+        ../COMP2340-202320.pdf
+        ../COMP2340-202340.pdf
+        ../COMP2340-620137495.circ
+        ../COMP2340-620137495.docx
+        ../COMP2340-Lab-01-Exercise-Sheet-2.docx
+        ../COMP2340-Lab-01-Exercise-Sheet.docx
+        ../COMP2340-Lab-01.pdf
+        ../COMP2340-Lab-02.pdf
+        ../COMP2340-Lab-03.pdf
+        ../COMP2340-tutorial-6-solutions.pdf
+        ../COMP2340-tutorial-8-2.pdf
+        ../COMP2340-tutorial-8.pdf
+        ../COMP2340_12072023.pdf
+        ../COMP2340_Project(Final)/
+        ../COMP3101 MONA MCQ40 E.FERGUSON 13OCT2025 RESULTS 22102025144052.doc
+        ../COMP3101-Assignment3-2.pdf
+        ../COMP3101-Assignment3.pdf
+        ../COMP3101-lecture01.pdf
+        ../COMP3101-lecture02-2.pdf
+        ../COMP3101-lecture02-3.pdf
+        ../COMP3101-lecture02.pdf
+        ../COMP3101-lecture03.pdf
+        ../COMP3101-lecture04.pdf
+        ../COMP3101-lecture05.pdf
+        ../COMP3101-lecture06.pdf
+        ../COMP3101-lecture07.pdf
+        ../COMP3101-lecture08.pdf
+        ../COMP3101-lecture09.pdf
+        ../COMP3101_2023.pdf
+        ../COMP3161  2023 Final Project (2).pdf
+        ../COMP3161 Assignment 1 2023.docx (5).pdf
+        ../COMP3161 Lab 2 (4).pdf
+        ../COMP3161 Lab 3 (3).pdf
+        ../COMP3161 Lab1 2024 (7).pdf
+        ../COMP3161-GroupProject-main/
+        ../Candidate Time Table.pdf
+        ../Cape Grades.JPG
+        ../Cell Signaling_2022-2023-2.pdf
+        ../Cell Signaling_2022-2023.pdf
+        ../Cell cycle 2022-2023.pdf
+        ../Cellular Respiration 2_2022-2023.pdf
+        ../Cellular Respiration_2022-2033-2.pdf
+        ../Cellular Respiration_2022-2033.pdf
+        ../Ch2 SW Processes.pptx
+        ../Chapter8_MCQs.pdf
+        ../Chapter_1_v8.0.pdf
+        ../Chapter_2_v8.0.pdf
+        ../Chapter_4_v9.0.pptx
+        ../Chapter_6_v8.0.pdf
+        ../Chapter_7_v8.0.pdf
+        ../Chapter_8_gene_control (1).pdf
+        ../ChatGPT_Desktop_public_latest.dmg
+        ../Chem1811 manual AY 2022-23_updated (1).pdf
+        ../Chem1811 manual AY 2022-23_updated.pdf
+        ../Chem1910 Lecture 1 - Energy in Molecules 2020.pptx
+        ../Chem1910 Lecture 2- Energy in Molecules 2020.pptx
+        ../Chem1910 Lecture 3- Energy in Molecules 2020.pptx
+        ../Chem1910 Lecture 4- Energy in Molecules 2020.pptx
+        ../Chem1910 Lecture 5- Energy in Molecules 2020.pptx
+        ../Chem1910 Lecture 6- Energy in Molecules 2020.pptx
+        ../Chem1910 Lecture 7- Energy in Molecules 2020.pptx
+        ../Chem1910_Tutorial_2_AY20_21.pdf.pdf
+        ../Chem1910_Tutorial_3_AY20_21.pdf.pdf
+        ../Classroom Scene 1.bak/
+        ../Comp 2171 - Review - 2024 - April - Final Exam - April & Dec 2022.pdf
+        ../Comp Society Final Exam Review guide Sem I 2023-24 (1).docx
+        ../Comp Society Final Exam Review guide Sem I 2023-24 (2).docx
+        ../Comp Society Final Exam Review guide Sem I 2023-24.docx
+        ../Comp1210_incourse_2.pdf.pdf
+        ../Comp2211 MidSem 2022.pdf
+        ../Comp2340 May2023 .pdf
+        ../Computing History Part 1 Ancient and Mainframe Computing v18d.pptx
+        ../Copy of COMP3220 Lect 02-Agents.pptx.pdf
+        ../Copy of COMP3220 Lect 04-Local Search.pptx.pdf
+        ../Copy of Question Bank -ECON 2.docx
+        ../Copy of Question Bank -ECON.docx
+        ../Course Outline.doc
+        ../Course Outline.docx
+        ../Course.java
+        ../Critical Thinking Project Guide and Grading Criteria.pdf
+        ../Crossword 1 - Editable-1.jpg
+        ../Crossword 1 - Editable.pdf
+        ../Cryptographic_Algo_Implementation.pdf
+        ../DEREK WALCOTT - FOUN1101 POINTERS-2 (1).pdf
+        ../DEREK WALCOTT - FOUN1101 POINTERS-2 (2).pdf
+        ../DEREK WALCOTT - FOUN1101 POINTERS-2.pdf
+        ../DPS FIRST DRAFT 2.docx
+        ../DPS FIRST DRAFT 2/
+        ../DPS FIRST DRAFT 3.docx
+        ../DPS FIRST DRAFT 5.docx
+        ../DPS FIRST DRAFT 6.docx
+        ../DPS Template.docx
+        ../DPS Template.pdf
+        ../DPS Template/
+        ../Daena Crosby.JPEG
+        ../Dark Blue Modern Election Campaign Instagram Post-2.png
+        ../Dark Blue Modern Election Campaign Instagram Post-3.png
+        ../Dark Blue Modern Election Campaign Instagram Post-4.png
+        ../Dark Blue Modern Election Campaign Instagram Post-5.png
+        ../Dark Blue Modern Election Campaign Instagram Post-6.png
+        ../Dark Blue Modern Election Campaign Instagram Post-7.png
+        ../Dark Blue Modern Election Campaign Instagram Post-8.png
+        ../Dark Blue Modern Election Campaign Instagram Post.png
+        ../DataModeling_modified (2).pdf
+        ../Deployment/
+        ../Deploymentor/.DS_Store
+        ../Deploymentor/.idea/
+        ../Deploymentor/SysInfo.txt
+        ../Deploymentor/cases/
+        ../Deploymentor/id.txt
+        ../Deploymentor/javadocs/
+        ../Deploymentor/out/Community.class
+        ../Deploymentor/out/Criminal.class
+        ../Deploymentor/out/DoS.class
+        ../Deploymentor/out/Driver.class
+        ../Deploymentor/out/IO.class
+        ../Deploymentor/out/Operation.class
+        ../Deploymentor/out/Raid.class
+        ../Deploymentor/out/Resident.class
+        ../Deploymentor/out/SOE.class
+        ../Deploymentor/out/Services.class
+        ../Deploymentor/out/SystemInfo.class
+        ../Deploymentor/out/Tester.class
+        ../Deploymentor/out/UnderCover.class
+        ../Deploymentor/out/ZOSO.class
+        ../Deploymentor/out/production/Deploymentor/.idea/
+        ../Deploymentor/out/production/Deploymentor/SysInfo.txt
+        ../Deploymentor/out/production/Deploymentor/cases/
+        ../Deploymentor/out/production/Deploymentor/id.txt
+        ../Deploymentor/out/production/Deploymentor/javadocs/
+        ../Deploymentor/score_97.03_620137495.tst
+        ../Deploymentor/score_97.03_620137495.zip
+        ../Deploymentor/src/Community.java
+        ../Deploymentor/src/Criminal.java
+        ../Deploymentor/src/DoS.java
+        ../Deploymentor/src/Driver.java
+        ../Deploymentor/src/IO.java
+        ../Deploymentor/src/Operation.java
+        ../Deploymentor/src/Raid.java
+        ../Deploymentor/src/Resident.java
+        ../Deploymentor/src/SOE.java
+        ../Deploymentor/src/Services.java
+        ../Deploymentor/src/SysInfo.txt
+        ../Deploymentor/src/SystemInfo.java
+        ../Deploymentor/src/Tester.java
+        ../Deploymentor/src/UnderCover.java
+        ../Deploymentor/src/ZOSO.java
+        ../Deploymentor/src/id.txt
+        ../Derek_Walcott_biography.docx.pdf
+        ../Derivatives Continuity and IVT Notes.pdf
+        ../Determinants_and_Inverses.pdf
+        ../Determinism and Freedom of the Will.pptx
+        "../Do-You-Have-A-Step-by-Step-Blog-Writing-Process-Here\342\200\231s-One-3.jpg"
+        ../Document.docx
+        ../Document_2021-06-27_195813.jpg
+        ../Document_2023-03-27_202942.pdf
+        ../Document_2023-03-27_203619.pdf
+        ../Documented Problem Solving Assignment Grading Rubric vs3.pdf
+        ../Double integrals.pdf
+        ../EASy68K/
+        ../ECN1003 MARATHON n.pdf
+        ../ECON 1003 FINAL SEM 1 2017-18(SOLUTIONS).pdf
+        ../ECON 1003 FINAL SEM 1 2017-18.pdf
+        ../ECON 1003 MIDSEM2 SEM 1 2016-17.pdf
+        ../ECON 2016 DOUBLE INTEGRALS (2019).pdf
+        ../ECON 2024 - Corruption.pptx
+        ../ECON 2024 oil in the world economy.pdf
+        ../ECON 2024- International Financial Crises.pptx
+        ../ECON1000_Compiled_Notes_Semester_I_2022.pdf.pdf
+        ../ECON1000_Foundation.pptx
+        ../ECON1000_Interfering in the Market.pptx
+        ../ECON1000_Market Failures (2).pptx
+        ../ECON1000_Market Model.pptx
+        ../ECON1000_Trade (2).pptx
+        ../ECON1003_10122022.pdf
+        ../ECON1003_14122018.pdf
+        ../ECON1012 - Unit 1 Lecture Notes - wn.pptx
+        ../ECON1012 - Unit 10 Lecture Notes - wn.pptx
+        ../ECON1012 - Unit 2 Lecture Notes - 10-19-2022 - wn.pptx
+        ../ECON1012 - Unit 3 Lecture Notes - wn.pptx
+        ../ECON1012 - Unit 4 Lecture Notes - wn.pptx
+        ../ECON1012 - Unit 5 Lecture Notes - wn.pptx
+        ../ECON1012 - Unit 7 Lecture Notes - wn.pptx
+        ../ECON1012 - Unit 8 Lecture Notes - wn.pptx
+        ../ECON1012 - Unit 9 Lecture Notes - wn.pptx
+        ../ECON2000 - Unit 7 - Profit Maximization and Competitive Supply copy.pdf
+        ../ECON2000 - Unit 7 - Profit Maximization and Competitive Supply-2.pdf
+        ../ECON2000 - Unit 7 - Profit Maximization and Competitive Supply.pdf
+        ../ECON2000_Final_Exam_May2024.docx
+        ../ECON2000_tutorial_4.pdf
+        ../ECON2001_Topic_1.pdf
+        ../ECON2002_Exam_MCQs_Option1.pdf
+        ../ECON2008 CRASH COURSE SESSION .pdf
+        ../ECON2015 Past Papers.zip
+        ../ECON2015 Past Papers/
+        ../ECON2015___Tutorial_Sheet_5_Solution.pdf
+        ../ECON2024 Climate Change.pdf
+        ../ECON2024 Question Bank - Unanswered.docx
+        ../ECON2024 Question Bank-2.docx
+        ../ECON2024 Question Bank.docx
+        ../Econ 2008 Summary 1 .pptx
+        ../Editorial-Board_2021_Eating-Behaviors.pdf
+        ../Edu-Zone-master/.DS_Store
+        ../Edu-Zone-master/.gitignore
+        ../Edu-Zone-master/.idea/.gitignore
+        ../Edu-Zone-master/.idea/inspectionProfiles/
+        ../Edu-Zone-master/.idea/material_theme_project_new.xml
+        ../Edu-Zone-master/.idea/misc.xml
+        ../Edu-Zone-master/.idea/modules.xml
+        ../Edu-Zone-master/LICENSE
+        ../Edu-Zone-master/README.md
+        ../Edu-Zone-master/backend/
+        ../Edu-Zone-master/frontend/
+        ../Edu-Zone-master/package-lock.json
+        ../Edu-Zone-master/package.json
+        ../Elementary Linear Algebra (Howard Anton) (Z-Library).pdf
+        ../Emergency.jpg
+        ../EpicInstaller-15.17.1-5b4aadf9981c4907b80319dbac2bbeeb.dmg
+        ../Euthanasia and Cloning.pptx
+        ../Exam Paper - ECON 2000.pdf
+        ../Executive_Assistant_Proposal.docx
+        ../Executive_Assistant_Proposal/
+        ../Executive_Assistant_Proposal_Plans.docx
+        ../F - Past Paper Questions (1) (1).docx
+        ../FINAL SOCI1006 Take home exam 2020.doc
+        ../FOUN1014 - Self-Evaluation Form for SRP Plan (Revised) (1).docx
+        ../FOUN1101_Critical Thinking Assignment.pdf
+        ../FSTGC PRO Presentation.pptx
+        ../Facetune_07-04-2023-21-49-50.TIF
+        ../Facetune_08-11-2022-02-34-08.TIF
+        ../Facetune_17-11-2024-16-57-25.TIF
+        ../Facetune_22-12-2023-11-08-26.HEIC
+        ../Facetune_25-12-2023-14-35-50.HEIC
+        ../Final Practice Packet vs3-merged.pdf
+        ../Final Practice Packet with tables - vs2.pdf
+        ../Final Practice Packet.pdf
+        ../Final SRP- Grp 3.docx
+        ../Final SRP- Grp 3/
+        ../Final SRP.docx
+        ../Final_Refection_K.pdf.pdf
+        ../Financial_Questionnaire_for_Medical_Students.pdf
+        ../FoneTool_free_installer_20230616.5043491.exe
+        ../Fso-G8NX0AA6e6A.jpeg
+        ../GMT20240906-210244_Recording.cutfile.20240906222218089_1366x768.mp4
+        ../Gabriel_mykey.asc
+        ../Gene regulation_o.pdf
+        ../Genealogical Tree.pptx
+        ../Genealogical Tree.pptx.pptx
+        ../Get started to become a Student Ambassdor.pdf
+        ../Grad certificate .pdf
+        ../Grammarly.sIoqLM4bhuxf7o7ra28i07o2.dmg
+        ../Guidelines__Student_Request_for_Change_of_Major_Status_2023.pdf
+        ../Guidelines_for_Change_of_MAJOR_Request_(ALL_Students).pdf
+        ../Guild EAC Secretary Proposal 2.pdf
+        ../Guild EAC Secretary Proposal.docx
+        ../Guild EAC Secretary Proposal.pdf
+        ../HC5Shapes.pptx
+        ../HalftoneDots1.png
+        ../Handwritten_2022-09-21_211950.jpg
+        ../Handwritten_2022-09-21_211950_1.jpg
+        ../Handwritten_2023-03-27_203509.jpg
+        ../Hercules1.png
+        ../How to find the Chem1811.pptx
+        ../ID_Specifications.pdf
+        ../IMG_0092 2.HEIC
+        ../IMG_0092.HEIC
+        ../IMG_0093 2.HEIC
+        ../IMG_0093.HEIC
+        ../IMG_0094 2.HEIC
+        ../IMG_0094.HEIC
+        ../IMG_0095 2.HEIC
+        ../IMG_0095.HEIC
+        ../IMG_0096 2.HEIC
+        ../IMG_0096.HEIC
+        ../IMG_0097 2.HEIC
+        ../IMG_0097.HEIC
+        ../IMG_0098 2.HEIC
+        ../IMG_0098.HEIC
+        ../IMG_0099 2.HEIC
+        ../IMG_0099.HEIC
+        ../IMG_0100 2.HEIC
+        ../IMG_0100.HEIC
+        ../IMG_0101 2.HEIC
+        ../IMG_0101.HEIC
+        ../IMG_0108 2.HEIC
+        ../IMG_0108.HEIC
+        ../IMG_0109 2.HEIC
+        ../IMG_0109.HEIC
+        ../IMG_0112 2.HEIC
+        ../IMG_0112.HEIC
+        ../IMG_0113 2.HEIC
+        ../IMG_0113.HEIC
+        ../IMG_0114 2.HEIC
+        ../IMG_0114.HEIC
+        ../IMG_0116 2.HEIC
+        ../IMG_0116.HEIC
+        ../IMG_0117 2.HEIC
+        ../IMG_0117.HEIC
+        ../IMG_0120 2.HEIC
+        ../IMG_0120.HEIC
+        ../IMG_0121 2.HEIC
+        ../IMG_0121.HEIC
+        ../IMG_0122 2.HEIC
+        ../IMG_0122.HEIC
+        ../IMG_0124 2.HEIC
+        ../IMG_0124.HEIC
+        ../IMG_0125 2.HEIC
+        ../IMG_0125.HEIC
+        ../IMG_0126 2.HEIC
+        ../IMG_0126.HEIC
+        ../IMG_0130 2.HEIC
+        ../IMG_0130.HEIC
+        ../IMG_0131 2.HEIC
+        ../IMG_0131.HEIC
+        ../IMG_0132 2.HEIC
+        ../IMG_0132.HEIC
+        ../IMG_0180.DNG
+        ../IMG_0181.DNG
+        ../IMG_0182.DNG
+        ../IMG_0183.DNG
+        ../IMG_0184.DNG
+        ../IMG_0186.DNG
+        ../IMG_0187.DNG
+        ../IMG_0188.DNG
+        ../IMG_0190.DNG
+        ../IMG_0191.DNG
+        ../IMG_0192.DNG
+        ../IMG_0193.DNG
+        ../IMG_0195.DNG
+        ../IMG_0196.DNG
+        ../IMG_0197.DNG
+        ../IMG_1226.JPG
+        ../IMG_1227.PNG
+        ../IMG_1229.jpg
+        ../IMG_1230.jpg
+        ../IMG_1231.jpg
+        ../IMG_1232.PNG
+        ../IMG_1233.jpg
+        ../IMG_2086 2.HEIC
+        ../IMG_2086.HEIC
+        ../IMG_2089 2.HEIC
+        ../IMG_2089.HEIC
+        ../IMG_2090 2.HEIC
+        ../IMG_2090.HEIC
+        ../IMG_3206.HEIC
+        ../IMG_3470.heic
+        ../IMG_3471.heic
+        ../IMG_3933.HEIC
+        ../IMG_4291 2.JPG
+        ../IMG_4291.JPG
+        ../IMG_4886.JPG
+        ../IMG_4887.JPG
+        ../IMG_4925.jpg
+        ../IMG_4926.jpg
+        ../IMG_4927.jpg
+        ../IMG_4928.PNG
+        ../IMG_4929.jpg
+        ../IMG_6167.JPG
+        ../IMG_7823.jpg
+        ../IMG_9139.JPG
+        ../IMG_9144.JPG
+        ../IMG_9717.jpg
+        ../IMG_9718.jpg
+        ../IMG_9719.jpg
+        ../IMG_9720.jpg
+        ../IMG_9721.jpg
+        ../INFO2180 Final Exam 1 December  21, 2021-2.pdf
+        ../INSTRUCTIONS_FOR_Students_for_REGISTERING_WITH_TURNITIN_UPLOADING_PAPERS (1).doc
+        ../Important Numbers.txt
+        ../Install Spotify.app/
+        ../International Economic Relations II.pptx
+        ../Internship_Application_Form.pdf
+        ../Introduction_to_Matrices_853573f93e9ff42ff04f91c978fc05eb.pdf
+        ../Introductory Chemistry I Lab 1811 Kurt McBayne 620146163 B04 Tuesday 2-6pm Lab #2 Ionization of Acids & Bases, pH & Buffers pdf..pdf
+        ../Introductory Chemistry I Lab 1811 Kurt McBayne 620146163 B04 Tuesday 2-6pm Lab #4 Determination of Acetic Acid pdf..pdf
+        ../Introductory Chemistry I Lab 1811 Kurt McBayne 620146163 B04 Tuesday 2-6pm Lab #6 Determination of Available Chlorine in Commercial Bleach pdf. (1).pdf
+        ../Introductory Chemistry I Lab 1811 Kurt McBayne 620146163 B04 Tuesday 2-6pm Lab #6 Determination of Available Chlorine in Commercial Bleach pdf..pdf
+        ../Introductory Chemistry II Acids and Bases Lecture 2.pdf
+        ../Is Truth Eternal- finisded .pptx
+        ../Is Truth Eternal.pptx-2.pdf
+        ../Is Truth Eternal.pptx-2.pptx
+        ../Is Truth Eternal.pptx-3.pdf
+        ../Is Truth Eternal.pptx.pdf
+        ../Is Truth Eternal.pptx.pptx
+        ../JPEG image-4509-88EB-F9-0.jpeg
+        ../Jamaica.pdf
+        ../Jun 24, Doc 1.jpg
+        ../Jun 24, Doc 2.jpg
+        ../Jun 24, Doc 2.pdf
+        ../KNOWLEDGE, BELIEF AND EVIDENCE.pptx
+        ../Kottak Families, Kinship, and Descent.pdf
+        ../Kw_of_Water_part_III.ppt
+        ../LAB4A_620137495_Bench 2.pdf
+        ../LAB4B_620137495_Bench 2-2.pdf
+        ../LAB4B_620137495_Bench 2.pdf
+        ../LAB_6_GUI/.DS_Store
+        ../LAB_6_GUI/.idea/
+        ../LAB_6_GUI/BasePerson.java
+        ../LAB_6_GUI/Person.java
+        ../LAB_6_GUI/PersonEntry.java
+        ../LAB_6_GUI/PersonListing.java
+        ../LAB_6_GUI/out/.DS_Store
+        ../LAB_6_GUI/out/production/.DS_Store
+        ../LAB_6_GUI/out/production/LAB_6_Starting_Code/.idea/
+        ../LAB_6_GUI/out/production/LAB_6_Starting_Code/BasePerson.class
+        ../LAB_6_GUI/out/production/LAB_6_Starting_Code/Person.class
+        ../LAB_6_GUI/out/production/LAB_6_Starting_Code/PersonEntry.class
+        ../LAB_6_GUI/out/production/LAB_6_Starting_Code/PersonListing$1.class
+        ../LAB_6_GUI/out/production/LAB_6_Starting_Code/PersonListing$2.class
+        ../LAB_6_GUI/out/production/LAB_6_Starting_Code/PersonListing$CloseButtonListener.class
+        ../LAB_6_GUI/out/production/LAB_6_Starting_Code/PersonListing.class
+        ../LAB_6_GUI/out/production/LAB_6_Starting_Code/person.dat
+        ../LAB_6_GUI/person.dat
+        ../LAB_6_GUI/pushbutton.java
+        ../LAB_6_Starting_Code/
+        ../LASSITER_Invitation to Anthropology.pdf
+        ../Lab 0.pdf
+        ../Lab 01-20250126/
+        ../Lab 01-20250222 2/
+        ../Lab 01-20250222.zip
+        ../Lab 01-20250222/
+        ../Lab 03 Assembly Programming-20250405/
+        ../Lab 03 Assembly Programming-20250408/
+        ../Lab 1 (1) (1).pdf
+        ../Lab 1 (1).pdf
+        ../Lab 1 EXERCISES_ourvle_revised M_T.docx
+        ../Lab 1 WORKSHEET_ourvle revised (1) (1).docx
+        ../Lab 1 WORKSHEET_ourvle revised M_T.docx
+        ../Lab 1 WORKSHEET_ourvle.docx
+        ../Lab 1 ppt ourvle.pptx
+        ../Lab 1.pdf
+        ../Lab 2  WORKSHEET_ourvle fnl.docx
+        ../Lab 2 - Worksheet #2 - Homosporous Sorus Dehiscence Videos (updated).docx
+        ../Lab 2 EXERCISES_ourvle fnl.docx
+        ../Lab 2 Worksheet 2023 (Word Version).docx
+        ../Lab 2 ppt ourvle.pptx
+        ../Lab 2.zip
+        ../Lab 3 - The Mollusca and Arthropoda/
+        ../Lab 3 Online Worksheet 2023- The Mollusca and Arthropoda.docx
+        ../Lab01-2.circ
+        ../Lab01-620137495.py
+        ../Lab01.circ
+        ../Lab0_620137495.pdf
+        ../Lecture 1 - Introduction, Protista, Multicellularity and Fungi copy.pdf
+        ../Lecture 1-1 - Data Abstraction Lists and Dictionary-2.pdf
+        ../Lecture 1-1 - Data Abstraction Lists and Dictionary-3.pdf
+        ../Lecture 1-1 - Data Abstraction Lists and Dictionary.pdf
+        ../Lecture 1-1 - Data Abstraction Lists and Dictionary.pptx
+        ../Lecture 11 - Reflective Writing - Revised.pdf
+        ../Lecture 2 - Critical Reading 1 - Rhetorical Analysis, Summarizing, Paraphrasing  Introduction to APA Documentation Style.pdf
+        ../Lecture 6- 2008.pdf
+        ../Lecture 6-1 - Summary - IN CLASS.pptx
+        ../Lecture Exam Format Only.pptx
+        ../Lecture Exercises Workbook.pdf
+        ../Lecture Tutorial schedule 2022 2023 (1).doc
+        ../Lecture Tutorial schedule 2022 2023.doc
+        ../Lecture_10a_-_graph_theory_planarity.pptx
+        ../Lecture_10b_-_graph_theory_Paths_and_cycles_17_slides_.pptx
+        ../Lecture_12b_-_Finite_State_Machines_and_Automata [33 slides].ppt
+        ../Lecture_1_-_Electronic_Structure-2.pdf
+        ../Lecture_1_-_Electronic_Structure.pdf
+        ../Lecture_1a_-_Permutations_and_Combinations_final [39 slides].pptx
+        ../Lecture_1b_-_Permutations_and_Combinations_Ques [14 slides] - IN CLASS.pptx
+        ../Lecture_1b_-_Permutations_and_Combinations_Ques with Answers.pptx
+        ../Lecture_2_-_Electron_Behaviour.pdf
+        ../Lecture_2a_-_Basics_of_Counting [15 slides].pptx
+        ../Lecture_2b_-_Pigeonhole_Principle_and_Fibonacci Numbers [20 slides].pptx
+        ../Lecture_3a_-_Binomial_Theorem_and_Pascals_Triangle [19 slides].ppt
+        ../Lecture_3b_-_Master Theorem - SUMMARY.ppt
+        ../Lecture_3d_-_Modular Arithmetic.pptx
+        ../Lecture_4a_-_Discrete_Probability [19 slides].ppt
+        ../Lecture_5a_-_Probability_Tree [10 slides].pptx
+        ../Lecture_5b_-_Special_Probability_Distributions [26 slides].pptx
+        ../Lecture_6a_-_Complexity_Theory [20 slides].pptx
+        ../Lecture_6b_-_Complexity_Theory [16 slides].ppt
+        ../Lecture_7a_-_Limits [12 slides].pptx
+        ../Lecture_7b_-_Sequence_Series [22 slides].pptx
+        ../Lecture_8a_-_Generating_functions_Operations_on [24 slides].pptx
+        ../Lecture_9a_-_generating_functions_recurrence_relations [20 slides].pptx
+        ../Lecture_9b2_-_Generating_Functions_and_Recurrence_Relations - Solutions.pdf
+        ../Lecture_9b_-_Examples_generating_functions_recurrence_relations [4 slides].pptx
+        ../Lesson 1 - Alley - Craft of Scientific Writing.pdf
+        ../Life and Death A Philosophical Inquiry.pptx
+        ../Light Green Minimalistic Plastic Pollution Awareness Poster-10.png
+        ../Light Green Minimalistic Plastic Pollution Awareness Poster-11.png
+        ../Light Green Minimalistic Plastic Pollution Awareness Poster-12.png
+        ../Light Green Minimalistic Plastic Pollution Awareness Poster-2.png
+        ../Light Green Minimalistic Plastic Pollution Awareness Poster-3.png
+        ../Light Green Minimalistic Plastic Pollution Awareness Poster-4.png
+        ../Light Green Minimalistic Plastic Pollution Awareness Poster-5.png
+        ../Light Green Minimalistic Plastic Pollution Awareness Poster-6.png
+        ../Light Green Minimalistic Plastic Pollution Awareness Poster-7.png
+        ../Light Green Minimalistic Plastic Pollution Awareness Poster-8.png
+        ../Light Green Minimalistic Plastic Pollution Awareness Poster-9.png
+        ../Light Green Minimalistic Plastic Pollution Awareness Poster.pdf
+        ../Light Green Minimalistic Plastic Pollution Awareness Poster.png
+        ../Logisim 2.app/
+        ../Logisim 3.app/
+        ../Logisim 4.app/
+        ../Logisim 5.app/
+        ../Logisim.app/
+        ../MATH 0100 Finals- 2019_221129_210911 (1).pdf
+        ../MATH 0100 Finals- 2019_221129_210911.pdf
+        ../MICR1010  Incourse test 1  S2 2022_23.pdf
+        ../MICR1010 - Intro to Medical Microbiology_2023.pdf
+        ../MICR1010_Microbial Diversity Tutorial_2023 copy.pdf
+        ../MICR1011 Plasmid extraction links.docx
+        ../MICR1011 Results 2021.docx
+        ../MICR1011 manual ver6.pdf
+        ../MICR1011 results Monday stream2023.docx
+        ../MICR1011 results.docx
+        ../MICRO_B_LAB_1_Ravaughn_Marsh.docx
+        ../Macro Chapter 11.pdf
+        ../Macro Chapter 12.pdf
+        ../Macro- chap02.pdf
+        ../Macro-chap01.pdf
+        ../Macro-chap01.pptx
+        ../Macro-chap05.pdf
+        ../Macro-chap05.pptx
+        ../Macro-chap06.pdf
+        ../Macro-chap08.pdf
+        ../Making an Agarose Gel - University of Leicester.mp4
+        ../Mankiw_Chapter6_All40_WithAnswers.pdf
+        ../Marcro-chap03.pdf
+        ../Marcro-chap03.pptx
+        ../Math.jpg
+        ../Matrix_Algebra_Practice_Exam.pdf
+        ../May 17, Doc 1.pdf
+        ../Meiosis 2022.pdf
+        ../Microbiology Tutorial 1 2019.docx
+        ../Microbiology Tutorial 2 2019.docx
+        ../Microbiology Tutorial 3 2015.docx
+        ../Microbiology_Lab.pdf.pdf
+        ../Microeconomics Test Bank_231005_120610.pdf
+        ../Mid Semester 1-20240319/
+        ../Mid Term 1 Practice Packet vs2 (2)/
+        ../Mid Term 1 Practice Packet vs2-2.pdf
+        ../Mid Term 1 Practice Packet vs2.pdf
+        ../Mid Term 2 Practice Packet vs3 - Normal Table.pdf
+        ../Midsemester (12)_250323_151843.pdf
+        ../Midterm_Exam__2022_.pdf.pdf
+        ../Miscellaneous MCQs #3.pptx
+        ../Mitosis_2022.pdf
+        ../Mole workshop worksheet.docx
+        ../MyPGP.app/
+        ../NameLower.txt
+        ../Net Centric Computing Study Guide 2/
+        ../Net Centric Computing Study Guide.zip
+        ../Net Centric Computing Study Guide/
+        ../Net-Centric 2024 Full Past Paper.pdf
+        ../Normal Distribution Table.pdf
+        ../Note Apr 25, 2025 (4) 2.pdf
+        ../Note Apr 25, 2025 (4).pdf
+        ../Note Apr 28, 2025.pdf
+        ../Note Feb 10, 2026.pdf
+        ../Note Nov 7, 2024.pdf
+        ../Note Sep 25, 2025.pdf
+        ../Official:ending.mp3
+        ../Officialending.mp3
+        ../PARCC-Results_R1.jpg
+        ../PCR cases_ourvle.docx
+        ../PDF document-55EBEB6E69C7-1.pdf
+        ../PHOTO-2022-10-08-10-33-20.jpg
+        ../PHOTO-2022-10-10-13-20-42 2.jpg
+        ../PHOTO-2022-10-10-13-20-42.jpg
+        ../PHOTO-2022-10-10-13-20-43.jpg
+        ../PHOTO-2022-10-10-13-20-45.jpg
+        ../PHOTO-2022-10-11-20-53-10.jpg
+        ../PHOTO-2022-10-12-17-21-41.jpg
+        ../PHOTO-2022-10-16-12-50-34.jpg
+        ../PHOTO-2022-10-16-12-56-17.jpg
+        ../PHOTO-2022-10-16-13-13-47.jpg
+        ../PHOTO-2022-10-16-19-01-43.jpg
+        ../PHOTO-2022-10-17-06-48-32.jpg
+        ../PHOTO-2022-10-17-13-21-26.jpg
+        ../PHOTO-2022-10-17-14-42-55.jpg
+        ../PHOTO-2022-10-17-15-49-53.jpg
+        ../PHOTO-2022-10-17-15-52-51.jpg
+        ../PHOTO-2022-10-17-15-57-15.jpg
+        ../PHOTO-2022-10-17-15-57-46.jpg
+        ../PHOTO-2022-10-17-15-58-09.jpg
+        ../PHOTO-2022-10-17-15-58-31.jpg
+        ../PHOTO-2022-10-17-18-08-03.jpg
+        ../PHOTO-2022-10-17-18-13-04.jpg
+        ../PHOTO-2022-10-17-18-14-17.jpg
+        ../PHOTO-2022-10-17-18-45-11.jpg
+        ../PHOTO-2022-10-17-19-51-38.jpg
+        ../PHOTO-2022-10-17-20-13-59.jpg
+        ../PHOTO-2022-10-17-20-14-26.jpg
+        ../PHOTO-2022-10-17-20-19-55.jpg
+        ../PHOTO-2022-10-17-20-20-52.jpg
+        ../PHOTO-2022-10-17-20-20-54.jpg
+        ../PHOTO-2022-10-17-20-22-10.jpg
+        ../PHOTO-2022-10-17-21-44-22.jpg
+        ../PHOTO-2022-10-18-19-06-30.jpg
+        ../PHOTO-2022-10-18-19-18-30.jpg
+        ../PHOTO-2022-10-18-20-41-12.jpg
+        ../PHOTO-2022-10-19-07-47-25.jpg
+        ../PHOTO-2022-10-19-07-47-26.jpg
+        ../PHOTO-2022-10-19-09-36-05.jpg
+        ../PHOTO-2022-10-19-09-36-06.jpg
+        ../PHOTO-2022-10-23-13-05-28.jpg
+        ../PHOTO-2022-10-23-13-11-37.jpg
+        ../PHOTO-2022-10-24-16-01-42.jpg
+        ../PHOTO-2022-10-24-16-01-43.jpg
+        ../PHOTO-2022-10-24-22-49-56.jpg
+        ../PHOTO-2022-10-24-22-51-49.jpg
+        ../PHOTO-2022-10-24-22-53-41.jpg
+        ../PHOTO-2022-10-25-12-36-33.jpg
+        ../PHOTO-2022-10-25-12-52-49.jpg
+        ../PHOTO-2022-10-25-13-04-28.jpg
+        ../PHOTO-2022-10-25-20-21-44.jpg
+        ../PHOTO-2022-10-25-20-26-37.jpg
+        ../PHOTO-2022-10-26-18-18-41.jpg
+        ../PHOTO-2022-10-26-18-20-36.jpg
+        ../PHOTO-2022-10-26-18-30-15.jpg
+        ../PHOTO-2022-10-30-09-05-26.jpg
+        ../PHOTO-2022-10-30-11-14-58.jpg
+        ../PHOTO-2022-10-30-13-20-28.jpg
+        ../PHOTO-2022-10-30-13-52-46.jpg
+        ../PHOTO-2022-10-30-14-39-21.jpg
+        ../PHOTO-2022-10-30-18-47-20.jpg
+        ../PHOTO-2022-11-03-17-43-59.jpg
+        ../PHOTO-2022-11-04-17-01-25.jpg
+        ../PHOTO-2022-11-04-20-20-52.jpg
+        ../PHOTO-2022-11-04-20-31-43.jpg
+        ../PHOTO-2022-11-04-22-45-48.jpg
+        ../PHOTO-2022-11-04-23-34-22.jpg
+        ../PHOTO-2022-11-05-22-30-03.jpg
+        ../PHOTO-2022-11-05-22-43-57.jpg
+        ../PHOTO-2022-11-05-22-43-58.jpg
+        ../PHOTO-2022-11-05-22-46-49.jpg
+        ../PHOTO-2022-11-05-22-48-28.jpg
+        ../PHOTO-2022-11-06-00-31-28.jpg
+        ../PHOTO-2022-11-06-00-32-48.jpg
+        ../PHOTO-2022-11-06-00-36-09.jpg
+        ../PHOTO-2022-11-06-09-00-13.jpg
+        ../PHOTO-2022-11-06-18-03-03.jpg
+        ../PHOTO-2022-11-06-18-08-16 2.jpg
+        ../PHOTO-2022-11-06-18-08-16.jpg
+        ../PHOTO-2022-11-06-19-16-34 2.jpg
+        ../PHOTO-2022-11-06-19-16-34.jpg
+        ../PHOTO-2022-11-06-19-16-35.jpg
+        ../PHOTO-2022-11-06-19-27-19.jpg
+        ../PHOTO-2022-11-07-15-15-24.jpg
+        ../PHOTO-2022-11-12-12-07-33.jpg
+        ../PHOTO-2022-11-12-14-48-38.jpg
+        ../PHOTO-2022-11-12-14-48-45.jpg
+        ../PHOTO-2022-11-12-15-03-48.jpg
+        ../PHOTO-2022-11-12-15-36-03.jpg
+        ../PHOTO-2022-11-12-16-40-50.jpg
+        ../PHOTO-2022-11-12-20-26-24.jpg
+        ../PHOTO-2022-11-13-23-22-49.jpg
+        ../PHOTO-2022-11-13-23-25-37.jpg
+        ../PHOTO-2022-11-14-09-47-16.jpg
+        ../PHOTO-2022-11-16-16-10-31.jpg
+        ../PHOTO-2022-11-16-17-17-24.jpg
+        ../PHOTO-2022-11-16-17-19-30.jpg
+        ../PHOTO-2022-11-16-18-10-02.jpg
+        ../PHOTO-2022-11-16-18-14-53.jpg
+        ../PHOTO-2022-11-16-18-30-42.jpg
+        ../PHOTO-2022-11-16-20-46-42.jpg
+        ../PHOTO-2022-11-17-09-49-18.jpg
+        ../PHOTO-2022-11-19-11-23-22.jpg
+        ../PHOTO-2022-11-19-11-26-48.jpg
+        ../PHOTO-2022-11-19-11-29-08.jpg
+        ../PHOTO-2022-11-19-11-32-12.jpg
+        ../PHOTO-2022-11-19-11-37-25.jpg
+        ../PHOTO-2022-11-19-11-40-06.jpg
+        ../PHOTO-2022-11-19-13-36-15.jpg
+        ../PHOTO-2022-11-19-18-28-06.jpg
+        ../PHOTO-2022-11-22-15-51-34.jpg
+        ../PHOTO-2022-11-23-17-12-14.jpg
+        ../PHOTO-2022-11-25-00-23-02.jpg
+        ../PHOTO-2022-11-28-21-29-27.jpg
+        ../PHOTO-2022-12-01-16-53-00.jpg
+        ../PHOTO-2022-12-01-16-53-56.jpg
+        ../PHOTO-2022-12-01-17-06-02.jpg
+        ../PHOTO-2022-12-03-18-23-46.jpg
+        ../PHOTO-2022-12-03-18-25-55.jpg
+        ../PHOTO-2022-12-04-21-47-35.jpg
+        ../PHOTO-2022-12-04-22-00-12.jpg
+        ../PHOTO-2022-12-06-23-54-37.jpg
+        ../PHOTO-2022-12-07-09-22-02.jpg
+        ../PHOTO-2022-12-07-13-45-26.jpg
+        ../PHOTO-2023-05-01-20-08-39.jpg
+        ../PHOTO-2023-05-01-20-08-40 2.jpg
+        ../PHOTO-2023-05-01-20-08-40.jpg
+        ../PHOTO-2023-05-01-20-08-41 2.jpg
+        ../PHOTO-2023-05-01-20-08-41.jpg
+        ../PHOTO-2023-05-01-20-08-42 2.jpg
+        ../PHOTO-2023-05-01-20-08-42.jpg
+        ../PHOTO-2023-05-01-20-08-43 2.jpg
+        ../PHOTO-2023-05-01-20-08-43 3.jpg
+        ../PHOTO-2023-05-01-20-08-43.jpg
+        ../PHOTO-2023-05-01-20-08-44 2.jpg
+        ../PHOTO-2023-05-01-20-08-44.jpg
+        ../PHOTO-2023-05-01-20-08-45 2.jpg
+        ../PHOTO-2023-05-01-20-08-45.jpg
+        ../PHOTO-2025-03-08-11-30-15.jpg
+        ../PHOTO-2025-03-08-11-30-30.jpg
+        ../PHOTO-2025-03-08-11-30-52.jpg
+        ../PR8e_ch01.pptx
+        ../PR8e_ch02 .pptx
+        ../PR8e_ch03.pptx
+        ../PR8e_ch09.pptx
+        ../PROJECT 3/.DS_Store
+        ../PROJECT 3/.idea/.gitignore
+        ../PROJECT 3/.idea/copilot.data.migration.agent.xml
+        ../PROJECT 3/.idea/copilot.data.migration.ask.xml
+        ../PROJECT 3/.idea/copilot.data.migration.ask2agent.xml
+        ../PROJECT 3/.idea/copilot.data.migration.edit.xml
+        ../PROJECT 3/.idea/material_theme_project_new.xml
+        ../PROJECT 3/.idea/misc.xml
+        ../PROJECT 3/.idea/modules.xml
+        ../PROJECT 3/Final User Documentation.pdf
+        ../PROJECT 3/NumTheory.py
+        ../PROJECT 3/crypto_client.py
+        ../PROJECT 3/crypto_server.py
+        ../PROJECT 3/ravaughnkey.asc
+        ../PROJECT 3/simplified_AES.py
+        ../PS 12 - Consumption.pdf
+        ../Past paper 2.pdf
+        ../Phone-and-apps-techresizeDollarphotoclub_73919655.jpg
+        ../Photosynthesis II_2022-2023.pdf
+        ../Pictures/
+        ../Plasmid_Extraction_and_Digestion_B01.docx.pdf
+        ../Polymerase Chain Reaction.mp4
+        ../Practice questions for Inference about population standard deviation.pdf
+        ../Precalculus 10 Sequences and Series.pptx
+        ../Preliminary Chemistry Laboratory Manual.doc
+        ../Principles 16 - Money and Banking.pptx
+        ../Problem Paper 1_Solution.pdf
+        ../Problem Set 1 - Solutions.pdf
+        ../Problem Set 2 - Continuous Random Variables vs2.pdf
+        ../Problem Set 2 - Solutions.pdf
+        ../Problem Set 3 - Review of Inferential Statistics.pdf
+        ../Problem Set 3 - Solutions.pdf
+        ../Problem Set 4 - Solutions.pdf
+        ../Problem Set 5 - Inference for One-Sample Population Means - Part 1.pdf
+        ../Problem Set 8 with answers.pdf
+        ../Problem set 2.pdf
+        ../Purple and Green Modern Vote Election Flyer-2.png
+        ../Purple and Green Modern Vote Election Flyer-3.png
+        ../Purple and Green Modern Vote Election Flyer-4.png
+        ../Purple and Green Modern Vote Election Flyer-5.png
+        ../Purple and Green Modern Vote Election Flyer.png
+        ../Question2_Solution.pdf
+        ../RAVAUGHN 3B 620137495.docx
+        "../Raheem Williams (7DC2EBF8) \342\200\223 Public.asc"
+        ../Ravaughn Marsh  620137495.pdf
+        "../Ravaughn Marsh (000FC50A) \342\200\223 Public.asc"
+        ../Ravaughn Marsh - 620137495.pdf
+        ../Ravaughn Marsh Resume.docx
+        ../Ravaughn Marsh Resume.pdf
+        ../Ravaughn Marsh_123104136_assignsubmission_file_WORKSHEET A - 620137495.pdf
+        ../RavaughnMarsh-620137495.pdf
+        ../Ravaughn_Marsh_Resignation_Letter.docx
+        ../Ravaughn_Marsh_Resignation_Letter/
+        ../Ravaugn Marsh (1).doc
+        ../Ravaugn Marsh (2).doc
+        ../Ravaugn Marsh.doc
+        ../Reading 1 - Unexpected side effects  complications of diabetes-2.pdf
+        ../Reading 1 - Unexpected side effects  complications of diabetes-3.pdf
+        ../Reading 1 - Unexpected side effects  complications of diabetes.pdf
+        ../Reading 2 - Gestational diabetes  periodontal disease in Trinidad - A pilot study (1).pdf
+        ../Reading 2 - Gestational diabetes  periodontal disease in Trinidad - A pilot study.pdf
+        ../Reading 3 - Hypertension  diabetes prevalence in older persons in Jamaica.pdf
+        ../Recruit Decision Letter AC Temp Version 2.pdf
+        ../Reference 1
+        ../Renae.mp4
+        ../Requirement Specificiation Document.pdf
+        ../Residence_Fees_Academic_Year_2022_23.pdf
+        ../Results for Media Preparation and Sterilization 2021-2.pdf
+        ../Results for Media Preparation and Sterilization 2021.pdf
+        ../Retroactive 2.0/
+        ../S1471015321000933.bib
+        ../S1471015321000933.txt
+        ../SEQUENCE AND SERIES.pptx
+        ../SOCI 1006 course outline 2023.docx
+        ../SOLUTIONS MIDSEM TEST 2 2016 and 2017.pdf
+        ../SOLUTIONS.Chapters6-13.doc
+        ../SRP- Second Draft.docx
+        ../SRP- Second Draft_Revised Draft.docx
+        ../Sam- ocean- confirm.doc
+        ../Sam- ocean- confirm.docx
+        ../SampleApp 2.jar
+        ../SampleApp.jar
+        ../SampleApp.jar.cpgz
+        ../SampleApp/.DS_Store
+        ../SampleApp/.idea/
+        ../SampleApp/DatabaseManager.java
+        ../SampleApp/Driver.java
+        ../SampleApp/LoginAppliation.java
+        ../SampleApp/SCode.java
+        ../SampleApp/SampleApp.java
+        ../SampleApp/SpecializedVechicles.java
+        ../SampleApp/SpecializedVehForm.java
+        ../SampleApp/User.java
+        ../SampleApp/UserApplication.java
+        ../SampleApp/cmu_time_awb.jar
+        ../SampleApp/cmu_us_kal.jar
+        ../SampleApp/cmudict04.jar
+        ../SampleApp/cmulex.jar
+        ../SampleApp/cmutimelex.jar
+        ../SampleApp/en_us.jar
+        ../SampleApp/freetts-jsapi10.jar
+        ../SampleApp/freetts.jar
+        ../SampleApp/mbrola.jar
+        ../SampleApp/mbrola/
+        ../SampleApp/out/production/SampleApp/.idea/
+        ../SampleApp/out/production/SampleApp/DatabaseManager.class
+        ../SampleApp/out/production/SampleApp/Driver.class
+        ../SampleApp/out/production/SampleApp/SCode$1.class
+        ../SampleApp/out/production/SampleApp/SCode$2.class
+        ../SampleApp/out/production/SampleApp/SCode$LoginListener.class
+        ../SampleApp/out/production/SampleApp/SCode.class
+        ../SampleApp/out/production/SampleApp/SampleApp$1.class
+        ../SampleApp/out/production/SampleApp/SampleApp$ChkListener.class
+        ../SampleApp/out/production/SampleApp/SampleApp$CloseButtonListener.class
+        ../SampleApp/out/production/SampleApp/SampleApp$FileSelectButtonListener.class
+        ../SampleApp/out/production/SampleApp/SampleApp$ShowUsersButtonListener.class
+        ../SampleApp/out/production/SampleApp/SampleApp.class
+        ../SampleApp/out/production/SampleApp/SpecializedVeh.class
+        ../SampleApp/out/production/SampleApp/SpecializedVehForm.class
+        ../SampleApp/out/production/SampleApp/User.class
+        ../SampleApp/out/production/SampleApp/UserApplication.class
+        ../SampleApp/out/production/SampleApp/cmu_time_awb.jar
+        ../SampleApp/out/production/SampleApp/cmu_us_kal.jar
+        ../SampleApp/out/production/SampleApp/cmudict04.jar
+        ../SampleApp/out/production/SampleApp/cmulex.jar
+        ../SampleApp/out/production/SampleApp/cmutimelex.jar
+        ../SampleApp/out/production/SampleApp/en_us.jar
+        ../SampleApp/out/production/SampleApp/freetts-jsapi10.jar
+        ../SampleApp/out/production/SampleApp/freetts.jar
+        ../SampleApp/out/production/SampleApp/mbrola.jar
+        ../SampleApp/out/production/SampleApp/mbrola/
+        ../SampleApp/out/production/SampleApp/startPic.png
+        ../SampleApp/specializedVeh.java
+        ../SampleApp/startPic.png
+        ../SchoolYardScene-Alice.a3p
+        ../SchoolYardScene-Alice.bak/
+        ../ScienceDirect_articles_02Mar2023_21-14-14.358.zip
+        ../ScienceDirect_articles_26Feb2023_18-35-16/
+        ../ScienceDirect_citations_1677791687481.txt
+        "../Screenshot 2025-09-29 at 4.54.14\342\200\257PM.png"
+        ../Self & Peer- Review by Brianna Goover (620155659) (1).docx
+        ../Self & Peer- Review by Brianna Goover (620155659).docx
+        ../Self and Peer Review (1).docx
+        ../Self and Peer Review.docx
+        ../Serial dilution tutorial 2015.docx
+        ../SetupEASy68K.exe
+        ../SideloadlySetup.dmg
+        ../Sockets/
+        ../Software Engineering FINALS.pdf
+        ../SpecialNeedsTran/.gitignore
+        ../SpecialNeedsTran/.idea/
+        ../SpecialNeedsTran/Driver.java
+        ../SpecialNeedsTran/Drivers.dat
+        ../SpecialNeedsTran/SCode.java
+        ../SpecialNeedsTran/SpecializedVehicle.java
+        ../SpecialNeedsTran/SpecializedVehicles.dat
+        ../SpecialNeedsTran/User.java
+        ../SpecialNeedsTran/Users.dat
+        ../SpecialNeedsTrans (2) 2/SpecialNeedsTrans/.gitignore
+        ../SpecialNeedsTrans (2) 2/SpecialNeedsTrans/.idea/
+        ../SpecialNeedsTrans (2) 2/SpecialNeedsTrans/src/
+        ../SpecialNeedsTrans (2) 3/.DS_Store
+        ../SpecialNeedsTrans (2) 3/SpecialNeedsTrans/.gitignore
+        ../SpecialNeedsTrans (2) 3/SpecialNeedsTrans/.idea/
+        ../SpecialNeedsTrans (2) 3/SpecialNeedsTrans/Drivers.dat
+        ../SpecialNeedsTrans (2) 3/SpecialNeedsTrans/SpecializedVehicles.dat
+        ../SpecialNeedsTrans (2) 3/SpecialNeedsTrans/Users.dat
+        ../SpecialNeedsTrans (2) 3/SpecialNeedsTrans/src/
+        ../SpecialNeedsTrans (2) 4/.DS_Store
+        ../SpecialNeedsTrans (2) 4/.idea/
+        ../SpecialNeedsTrans (2) 4/SpecialNeedsTrans/.gitignore
+        ../SpecialNeedsTrans (2) 4/SpecialNeedsTrans/.idea/
+        ../SpecialNeedsTrans (2) 4/SpecialNeedsTrans/Drivers.dat
+        ../SpecialNeedsTrans (2) 4/SpecialNeedsTrans/SpecializedVehicles.dat
+        ../SpecialNeedsTrans (2) 4/SpecialNeedsTrans/Users.dat
+        ../SpecialNeedsTrans (2) 4/SpecialNeedsTrans/src/
+        ../SpecialNeedsTrans (2) 4/out/
+        ../SpecialNeedsTrans (2) 5/.DS_Store
+        ../SpecialNeedsTrans (2) 5/SpecialNeedsTrans (2)/.DS_Store
+        ../SpecialNeedsTrans (2) 5/SpecialNeedsTrans (2)/SpecialNeedsTrans/.gitignore
+        ../SpecialNeedsTrans (2) 5/SpecialNeedsTrans (2)/SpecialNeedsTrans/.idea/
+        ../SpecialNeedsTrans (2) 5/SpecialNeedsTrans (2)/SpecialNeedsTrans/Drivers.dat
+        ../SpecialNeedsTrans (2) 5/SpecialNeedsTrans (2)/SpecialNeedsTrans/SpecializedVehicles.dat
+        ../SpecialNeedsTrans (2) 5/SpecialNeedsTrans (2)/SpecialNeedsTrans/Users.dat
+        ../SpecialNeedsTrans (2) 5/SpecialNeedsTrans (2)/SpecialNeedsTrans/src/
+        ../SpecialNeedsTrans (2) 6/.DS_Store
+        ../SpecialNeedsTrans (2) 6/SpecialNeedsTrans (2)/.DS_Store
+        ../SpecialNeedsTrans (2) 6/SpecialNeedsTrans (2)/SpecialNeedsTrans (2)/.DS_Store
+        ../SpecialNeedsTrans (2) 6/SpecialNeedsTrans (2)/SpecialNeedsTrans (2)/SpecialNeedsTransFINAL/.idea/material_theme_project_new.xml
+        ../SpecialNeedsTrans (2) 6/SpecialNeedsTrans (2)/SpecialNeedsTrans (2)/SpecialNeedsTransFINAL/.idea/modules.xml
+        ../SpecialNeedsTrans (2) 6/SpecialNeedsTrans (2)/SpecialNeedsTrans (2)/SpecialNeedsTransFINAL/.idea/workspace.xml
+        ../SpecialNeedsTrans (2).zip
+        ../SpecialNeedsTrans (2)/.DS_Store
+        ../SpecialNeedsTrans (2)/SpecialNeedsTrans/.gitignore
+        ../SpecialNeedsTrans (2)/SpecialNeedsTrans/.idea/
+        ../SpecialNeedsTrans (2)/SpecialNeedsTrans/src/
+        ../SpecialNeedsTrans (3).zip
+        ../Speedtest Results Export-2024_09_22.csv
+        ../Srp draft 1 S25.docx
+        ../StarUML-6.2.2-arm64.dmg
+        ../Stimulus Material Sem 2 22-23 - Passage 1.pdf
+        ../Stimulus Material Sem 2 22-23 - Passage 2.pdf
+        ../Stimulus Material Sem 2 22-23 - Video.pdf
+        ../Stimulus Material Sem 2 22-23 - Visual.pdf
+        ../Studio 5_04508184913dbf5555602d062bb4c7a2.pdf
+        ../Systems_of_Linear_Equations.pdf
+        ../T5.html
+        ../TIMETABLE 2025:26/
+        ../TM Tutorial 1 updated.pdf
+        ../Test Bank (1) 2.pdf
+        ../Test Bank (1).pdf
+        ../TextReader.X68
+        ../The Meaning, Nature and Method of Philosophy .pptx
+        ../The Problem of Appearance and Reality.pptx
+        ../The Real Number System .pptx
+        ../The Text - Discrete Mathematics 8th Edition.pdf
+        ../Timetable (5).docx
+        ../Topic 11.pdf
+        ../Transcript .zip
+        ../Transcripts .jpg
+        ../Transcripts .pdf
+        ../Transcripts 123.pdf
+        ../TransferForm.doc
+        ../Tree.pptx.pptx
+        ../Tutorial 3.pptx
+        ../Tutorial 6.pdf
+        ../Tutorial Question 2.pdf
+        ../Tutorial sheet 1.docx
+        ../Tutorial_Q2_Solution.pdf
+        ../Tutorial_Sheet_5___Solutions (1).pdf
+        ../UWI On Wheels COMP2171 Design Document (1).pdf
+        ../UWISTAT_Application_Form_2015.dotx
+        ../UbuntuCodeofConduct-2.0.txt
+        ../Undergraduate_Students_Status_Letter_Request_Form.pdf
+        ../Unit 2 - Random Variables and their Related Probability Distributions.pdf
+        ../Unit 5a - Inference for Single Population Means vs4-merged.pdf
+        ../University of the West Indies 11.mp3
+        ../University of the West Indies 12.mp3
+        ../UnofficialTranscript-10.pdf
+        ../UnofficialTranscript-11.pdf
+        ../UnofficialTranscript-12.pdf
+        ../UnofficialTranscript-13.pdf
+        ../UnofficialTranscript-14.pdf
+        ../UnofficialTranscript-15.pdf
+        ../UnofficialTranscript-16.pdf
+        ../UnofficialTranscript-17.pdf
+        ../UnofficialTranscript-18.pdf
+        ../UnofficialTranscript-19.pdf
+        ../UnofficialTranscript-2.pdf
+        ../UnofficialTranscript-20.pdf
+        ../UnofficialTranscript-21.pdf
+        ../UnofficialTranscript-22.pdf
+        ../UnofficialTranscript-23.pdf
+        ../UnofficialTranscript-24.pdf
+        ../UnofficialTranscript-25.pdf
+        ../UnofficialTranscript-26.pdf
+        ../UnofficialTranscript-27.pdf
+        ../UnofficialTranscript-3.pdf
+        ../UnofficialTranscript-4.pdf
+        ../UnofficialTranscript-5.pdf
+        ../UnofficialTranscript-6.pdf
+        ../UnofficialTranscript-7.pdf
+        ../UnofficialTranscript-8.pdf
+        ../UnofficialTranscript-9.pdf
+        ../UnofficialTranscript.pdf
+        ../Untitled (Draft).goodnotes
+        ../Untitled Diagram-10.drawio
+        ../Untitled Diagram-11.drawio
+        ../Untitled Diagram-12.drawio
+        ../Untitled Diagram-13.drawio
+        ../Untitled Diagram-14.drawio
+        ../Untitled Diagram-15-2.drawio
+        ../Untitled Diagram-15-3.drawio
+        ../Untitled Diagram-15.drawio
+        ../Untitled Diagram-16.drawio
+        ../Untitled Diagram-17.drawio
+        ../Untitled Diagram-2.drawio
+        ../Untitled Diagram-3.drawio
+        ../Untitled Diagram-4-2.drawio
+        ../Untitled Diagram-4.drawio
+        ../Untitled Diagram-5.drawio
+        ../Untitled Diagram-6.drawio
+        ../Untitled Diagram-7.drawio
+        ../Untitled Diagram-8.drawio
+        ../Untitled Diagram-9.drawio
+        ../Untitled Diagram.drawio
+        ../Untitled Diagram.jpg
+        ../Untitled Note.pdf
+        ../Untitled document-2.txt
+        ../Untitled document.txt
+        ../Using a Micropipette - University of Leicester.mp4
+        ../VIDEO-2022-10-30-10-26-35.mp4
+        ../VIDEO-2022-10-30-12-59-28.mp4
+        ../Vehicle.java
+        ../View recent photos.png
+        ../WORKSHEET A - 620137495.docx
+        ../Week 10 CHEM1920 Lecture 19.pdf
+        ../Week 3 Lecture 6 - Introduction to Organic Reactions  their Mechanisms.pdf
+        ../Week 4 Lecture 7 - Introduction to Organic Reactions  their Mechanisms.pdf
+        ../Week 4 Lecture 8 - Introduction to Organic Reactions  their Mechanisms.pdf
+        ../Week 5 CHEM1920 Lecture 10.pdf
+        ../Week 5 CHEM1920 Lecture 9.pdf
+        ../Week 6 CHEM1920 Lecture 11.pdf
+        ../Week 7 CHEM1920 Lecture 12 .pdf
+        ../Week 7 CHEM1920 Lecture 13.pdf
+        ../Week 8 CHEM1920 Lecture 15.pdf
+        ../Week 9 CHEM1920 Lecture 16.pdf
+        ../WhatsApp Image 2024-03-03 at 3.14.53 PM.jpeg
+        ../WhatsApp Image 2024-12-15 at 14.20.15.jpeg
+        ../WhatsApp Image 2024-12-15 at 14.20.16.jpeg
+        ../WhatsApp Image 2024-12-15 at 14.32.46.jpeg
+        ../WhatsApp Image 2024-12-15 at 14.32.48 (1).jpeg
+        ../WhatsApp Image 2024-12-15 at 14.32.48 (2).jpeg
+        ../WhatsApp Image 2024-12-15 at 14.32.48 (3).jpeg
+        ../WhatsApp Image 2024-12-15 at 14.32.48 (4).jpeg
+        ../WhatsApp Image 2024-12-15 at 14.32.48 (5).jpeg
+        ../WhatsApp Image 2024-12-15 at 14.32.48 (6).jpeg
+        ../WhatsApp Image 2024-12-15 at 14.32.48.jpeg
+        ../Word for MAC Quick Start Guide.pdf
+        ../Working_Files/
+        ../Zoom-2.pkg
+        ../Zoom-3.pkg
+        ../Zoom-4.pkg
+        ../Zoom-5.pkg
+        ../Zoom-6.pkg
+        ../Zoom.pkg
+        ../_OceanofPDF.com_Statistics_for_Business_and_Economics_ninth_edition_-_Newbold.pdf
+        ../a5f542e8-adf3-49af-9f7f-c159653f9e27.jpg
+        ../a6ee4a061fff2ae33d77ac2b78d9028310b68a60.asc
+        ../a94e4877-65e6-414d-89a6-f77d537800fe.JPG
+        ../abstract-blue-technology-background_23-2149352058.jpg.avif
+        ../add
+        ../add4.circ
+        ../admin.css
+        ../admin.js
+        ../agpt.dmg
+        ../anytrans-ios-en-mac.dmg
+        ../anytrans-ios-official-en-mac.dmg
+        ../app.py
+        ../austin-schmid-zQ-y4Gj8194-unsplash.jpg
+        ../before chatter.m4a
+        ../before chatter.mp3
+        ../before noise.mp3
+        ../before-chatter.mp3
+        ../bilder-social-media-12.jpg
+        ../biol1262_1_17.pdf
+        ../biol1262_1_18.pdf
+        ../booklistformadmin.html
+        ../bugatti_vision_gran_turismo_111304_3840x2400.jpg
+        ../burrows3e_solutions_ch10.pdf
+        ../burrows3e_solutions_ch26.pdf
+        ../cLecture08-25.pdf
+        ../chapter3_mcq_full.pdf
+        ../cheering.mp3
+        ../cherrr-2.mp3
+        ../cherrr.mp3
+        ../classmate_key2.asc
+        ../classmatekey2.asc
+        ../classroom-sounds-98343.mp3
+        ../comp1127assignment_7475_8852.py
+        ../comp1161 midsem with ans.pdf
+        ../comp2211 aoa final exam sem 2 2022.pdf
+        ../comp2211 aoa final exam sem 2 2023.pdf
+        ../contact Us.jpg
+        ../db_user_management.php
+        ../de.py
+        ../decrypted_message.txt
+        ../deepseek_bash_20260209_30f7f2.sh
+        ../deepseek_bash_20260212_36316c.sh
+        ../deepseek_javascript_20251207_ece292.js
+        ../detailed_jaship_use_case.png
+        ../download-[AudioTrimmer.com].mp3
+        ../download.jsp
+        ../download.mp3
+        ../econ 2016 convexity and concavity 17-Jan-2021 07-38-06.pdf
+        ../econ 2016 preliminaries 17-Jan-2021 07-35-54.pdf
+        ../econ-1012-unit-11-20-past-papers.pdf
+        ../econ3008-history-economic-thought-2.html
+        ../econ3008-history-economic-thought.html
+        ../email.txt.asc
+        ../encrypted_for_them.asc
+        ../ethernet_packet_capture-2.pcapng
+        ../ethernet_packet_capture.pcapng
+        ../exam.pdf
+        ../feg/.DS_Store
+        ../feg/.idea/.gitignore
+        ../feg/.idea/material_theme_project_new.xml
+        ../feg/.idea/misc.xml
+        ../feg/.idea/modules.xml
+        ../feg/Documentations/
+        ../feg/NumTheory.py
+        ../feg/PrivateKeyComputation.py
+        "../feg/Ravaughn Marsh (DBD90A02) \342\200\223 Public.asc"
+        ../feg/Screenshots/
+        ../feg/__pycache__/
+        ../feg/crypto_client.py
+        ../feg/crypto_server.py
+        ../feg/private_key_utils.py
+        ../feg/private_key_utils.py.save
+        ../feg/simplified_AES.py
+        ../feg/tests/
+        ../feg/~$rt A Documentation.docx
+        ../file URL-4A78-912A-DB-0.data
+        ../file-20200304-66069-1l362jt.jpg.webp
+        ../frontend/.DS_Store
+        ../frontend/README.md
+        ../frontend/build/
+        ../frontend/node_modules/
+        ../frontend/package-lock.json
+        ../frontend/package.json
+        ../frontend/public/index.html
+        ../frontend/src/App.tsx
+        ../frontend/src/components/kiosk/ServiceSelection.tsx
+        ../frontend/src/components/kiosk/TRNInput.tsx
+        ../frontend/src/index.css
+        ../frontend/src/index.tsx
+        ../frontend/src/pages/admin/AdminDashboard.tsx
+        ../frontend/src/pages/admin/AdminLoginPage.tsx
+        ../frontend/src/pages/customer/HomePage.tsx
+        ../frontend/src/pages/customer/PriorityAccess.tsx
+        ../frontend/src/pages/customer/TicketDisplayPage.tsx
+        ../frontend/src/pages/staff/StaffDashboardPage.tsx
+        ../frontend/src/pages/staff/StaffLoginPage.tsx
+        ../frontend/src/pages/staff/StaffPersonalDashboard.tsx
+        ../frontend/src/services/mockData.ts
+        ../frontend/src/store/
+        ../frontend/src/types/
+        ../frontend/src/utils/constants.ts
+        ../frontend/src/utils/helpers.ts
+        ../frontend/tailwind.config.js
+        ../frontend/tsconfig.json
+        ../fstwebv2.jpg
+        ../girl_guicalc_img.jpg
+        ../github
+        ../github-recovery-codes.txt
+        ../gnupg-2.4.6.tar.bz2
+        ../gnupg-2.4.6.tar.bz2.sig
+        ../gnupg-2.4.6/
+        ../gpg4win-4.3.1.exe
+        ../group assignmentfile (1).py
+        ../group assignmentfile (2).py
+        ../group assignmentfile (3).py
+        ../group assignmentfile.py
+        ../harvard resume template word.docx
+        ../header.jpg
+        ../headerpicture.jpg
+        ../hi gilbert.mp3
+        ../horses_sunset_paddock_125690_2048x1152.jpg
+        ../http_packet_capture-2.pcapng
+        ../http_packet_capture.pcapng
+        ../iScanner Chat Message 2.txt
+        ../iScanner Chat Message.txt
+        ../iWflrX-BIOL1263 12 Chordate Vertebrata Fishes 2023 copy.pdf
+        ../icarefone-mac.dmg
+        ../imagem_whatsapp_2023-05-30_as_13.32.26.jpg
+        ../info2180-ajax-superheroes-master/
+        ../info2180-finalproject-main/
+        ../info2180-finalproject/
+        ../info2180-lab1.docx
+        ../info2180-lab2.pdf
+        ../info2180-lab3-20250926.pdf
+        ../info2180-lab4-20250926.pdf
+        ../info2180-lab4/
+        ../info2180-lab5-20250926.pdf
+        ../info2180-lab5-master-2/
+        ../info2180-lab5-master/
+        ../info2180-lab5/
+        ../info2180-lecture-1.pdf
+        ../info2180-lecture-2.pdf
+        ../info2180-lecture-3.pdf
+        ../info2180-lecture-4.pdf
+        ../info2180-lecture-7-2.pdf
+        ../info2180-lecture-7.pdf
+        ../info2180-project1-2025.pdf
+        ../info2180-project1-main/
+        ../info2180-project1-starter-master/
+        ../info2180-project1/
+        ../info2180-project2-2025.pdf
+        ../info3180-lab1-2026.pdf
+        ../info3180-lab1-main-2/
+        ../info3180-lab1-main-3/
+        ../info3180-lab1-main/
+        ../info3180-lab2-2026.pdf
+        .output.txt
+        ../info3180-lab2-starter-main/
+        ../info3180-lecture-1-python-essentials.pdf
+        ../info3180-lecture-2-flask-web-framework.pdf
+        ../insertphystherapy.pdf
+        ../instagram-ravaughnm-2025-01-06-hMtaih8p/
+        ../introduction L molecular biology 2019.ppt
+        ../introduction S molecular biology.ppt
+        ../introduction S molecular biology.pptx
+        ../ipv6_packet_capture-2.pcapng
+        ../ipv6_packet_capture.pcapng
+        ../jaship_use_case_diagram.png
+        ../javax.mail-1.6.2.jar
+        ../jonell-signed-by-ravaughn.asc
+        ../jonell.asc
+        ../joshua-earle-EqztQX9btrE-unsplash.jpg
+        ../kinship assignment example.docx
+        ../lab 4.txt
+        ../lab2-620137495.py
+        ../lab6_code.py
+        ../lamborghini_huracan_performante_lamborghini_huracan_lamborghini_129438_2560x1080.jpg
+        ../lec3.pptx
+        ../lib-2/
+        ../lib/
+        ../lightlogo.PNG
+        ../linux-shell-lab.pdf
+        ../login
+        ../login-10
+        ../login-11
+        ../login-12
+        ../login-13
+        ../login-14
+        ../login-15
+        ../login-16
+        ../login-17
+        ../login-18
+        ../login-19
+        ../login-2
+        ../login-20
+        ../login-21
+        ../login-22
+        ../login-23
+        ../login-24
+        ../login-25
+        ../login-26
+        ../login-27
+        ../login-28
+        ../login-29
+        ../login-3
+        ../login-30
+        ../login-31
+        ../login-32
+        ../login-33
+        ../login-34
+        ../login-35
+        ../login-36
+        ../login-37
+        ../login-38
+        ../login-39
+        ../login-4
+        ../login-40
+        ../login-41
+        ../login-42
+        ../login-43
+        ../login-44
+        ../login-45
+        ../login-46
+        ../login-47
+        ../login-48
+        ../login-49
+        ../login-5
+        ../login-50
+        ../login-51
+        ../login-52
+        ../login-53
+        ../login-54
+        ../login-55
+        ../login-56
+        ../login-57
+        ../login-58
+        ../login-59
+        ../login-6
+        ../login-60
+        ../login-61
+        ../login-62
+        ../login-63
+        ../login-64
+        ../login-65
+        ../login-66
+        ../login-67
+        ../login-68
+        ../login-69
+        ../login-7
+        ../login-70
+        ../login-71
+        ../login-72
+        ../login-73
+        ../login-74
+        ../login-75
+        ../login-76
+        ../login-77
+        ../login-78
+        ../login-79
+        ../login-8
+        ../login-80
+        ../login-81
+        ../login-82
+        ../login-83
+        ../login-84
+        ../login-85
+        ../login-86
+        ../login-87
+        ../login-88
+        ../login-9
+        ../logisim-macosx-2.7.1.tar
+        ../ls05-analysing-algorithms.annotated1.pdf
+        ../macOSPublicBetaAccessUtility.dmg
+        ../macroeconomics-9th-edition-mankiw-test-bank (1) 2023-10-02 22_00_32[1].pdf
+        ../mankiw8e-chap01.pptx
+        ../mankiw8e-chap02-2.pptx
+        ../mankiw8e-chap02.pptx
+        ../mankiw8e-chap05.pptx
+        ../mankiw8e-chap06.pptx
+        ../mankiw8e-chap08.pptx
+        ../mankiw8e-chap09.pptx
+        ../mankiw8e-chap10.pptx
+        ../mankiw8e-chap11.pdf
+        ../mankiw8e-chap11.pptx
+        ../mankiw8e-chap12-2.pptx
+        ../mankiw8e-chap12.pdf
+        ../mankiw8e-chap12.pptx
+        ../mankiw8e-chap13.pdf
+        ../mankiw8e-chap13.pptx
+        ../mankiw8e-chap14.pptx
+        ../maxresdefault.jpg
+        ../mbbs-selection-criteria-form copy.pdf
+        ../micro.instr.sim.V2.xlsm
+        ../midterm past papers/
+        ../midterm_past_papers[1].zip
+        ../motorcyclist_motorcycle_helicopters_122019_2560x1080.jpg
+        ../neBIOL1017 Laboratory Worksheet for Lab 2b 620137495.pdf
+        ../neBIOL1017 Laboratory Worksheet for Lab 2b 620137495.pdf.download/
+        ../netcentric_tutorial_solutions_2023/
+        ../newmessage.txt
+        ../newmessage_encrypted.asc
+        ../ngrok
+        ../normal table (1).pdf
+        ../nxmac.com_co212.zip
+        ../nyishia-signed.asc
+        ../nyishiarobinson-signed.asc
+        ../nyishiarobinson.asc
+        ../official:Beginning 2.mp3
+        ../official:Beginning.mp3
+        ../official:Beginning.mp3.zip
+        ../officialBeginning-2-2-2.mp3
+        ../officialBeginning-2-2.mp3
+        ../officialBeginning-2.mp3
+        ../officialBeginning.mp3
+        ../png-clipart-computer-icons-email-desktop-email-miscellaneous-angle.png
+        ../pngwing.com-10.png
+        ../pngwing.com-7.png
+        ../public_KEY.asc
+        ../receipt_Initial Reflection.pdf
+        ../receipt_Ravaughn Marsh FOUN1101 Book Report .pdf.pdf
+        ../reiboot-mac.dmg
+        ../secure3ds
+        ../semester_2_final_ug_timetable_a_to_z_updated.pdf
+        ../shipinville.png
+        ../signed-key.asc
+        ../soldier_helmet_art_123765_2048x1152.jpg
+        ../start_frontend.sh
+        ../starter_code-2/
+        ../starter_code-3/
+        ../starter_code.zip
+        ../starter_code/
+        ../startuppic.jpg
+        ../students-watching-webinar-computer-studying-online_74855-15522.webp
+        ../t table.pdf
+        ../tcp_packet_capture-2.pcapng
+        ../tcp_packet_capture.pcapng
+        ../text-7550550A41AD-1.txt
+        ../the-dangers-of-internet-challenges-a-guide-for-parents-featured-image.png.webp
+        ../tic-tac-toe-master/
+        ../toaz.info-chemistry-for-cape-examinationspdf-pr_e7b3f1633694e91a776776f0a01b49d3.pdf
+        ../tutorial 1 2022.docx
+        ../tutorial 2014.docx
+        ../tutorial-1-answers 2190 copy.pdf
+        ../tutorial-1-answers 2190.pdf
+        ../twitter_FL1mSzVUcCIuxHR.jpg
+        ../twitter_FNnBZHJUYAArawl.jpg
+        ../twitter_FNvPkSZVEAQVLoZ.jpg
+        ../twitter_FUHb7BDUsAAR3n7.jpg
+        ../twitter_FX-d1FpWAAUsL9T.jpg
+        ../twitter_FbSeC6wWIAAsfYX.jpg
+        ../twitter_FcqO_LsXwAMo_Jm.jpg
+        ../udp_packet_capture-2.pcapng
+        ../udp_packet_capture.pcapng
+        ../untitled folder.zip
+        ../untitled folder/
+        ../using-the-right-references.jpg
+        ../view.html
+        ../wallpaperflare.com_wallpaper-2.jpg
+        ../wallpaperflare.com_wallpaper-3.jpg
+        ../wallpaperflare.com_wallpaper-4.jpg
+        ../wallpaperflare.com_wallpaper-5.jpg
+        ../wallpaperflare.com_wallpaper-6.jpg
+        ../wallpaperflare.com_wallpaper.jpg
+        ../windows-shell-lab.pdf
+        ../wlan_packet_capture.pcapng
+        ../wooo-2.mp3
+        ../wooo.mp3
+        ../world.js
+        ../wp1822735-rick-and-morty-4k-wallpapers.png
+        ../wp2091530-rick-and-morty-4k-wallpapers.png
+        ../wp2091532-rick-and-morty-4k-wallpapers.jpg
+        ../wp2166957-rick-and-morty-4k-wallpapers.jpg
+        ../wp2166981-rick-and-morty-4k-wallpapers.png
+        ../wp2450670-rick-and-morty-4k-wallpapers.png
+        ../wp2450676-rick-and-morty-4k-wallpapers.jpg
+        ../wp2486295-rick-and-morty-4k-wallpapers.jpg
+        ../wp3277665-rick-and-morty-4k-wallpapers.jpg
+        ../wp3277694-rick-and-morty-4k-wallpapers.png
+        ../wp3277713-rick-and-morty-4k-wallpapers.jpg
+        ../wp3277724-rick-and-morty-4k-wallpapers.jpg
+        ../wp3277735-rick-and-morty-4k-wallpapers.jpg
+        ../wp3277779-rick-and-morty-4k-wallpapers.jpg
+        ../xampp-osx-8.2.4-0-installer.dmg
+        ../yessir#3.py
+        ../zoomusInstallerFull.pkg-2.download/
+        ../~$CHEM1810 Lecture 1 - 2022.pptx
+        ../~$Chapter_4_v9.0.pptx
+        ../~$ECON 2024 - Corruption.pptx
+        ../~$ECON1012 - Unit 5 Lecture Notes - wn.pptx
+        ../~$International Economic Relations II.pptx
+        ../~$Lab0.docx
+        ../~$Lecture_2a_-_Basics_of_Counting [15 slides].pptx
+        ../~$Lecture_3a_-_Binomial_Theorem_and_Pascals_Triangle [19 slides].ppt
+        ../~$Lecture_3b_-_Master Theorem - SUMMARY.ppt
+        ../~$Lecture_3d_-_Modular Arithmetic.pptx
+        ../~$Lecture_9a_-_generating_functions_recurrence_relations [20 slides].pptx
+        ../~$MP2201 Assignment 1 - Sem 1 2023-2024.docx
+        ../~$MP2201 Assignment 1 - Sem 1 2024-2025-2.docx
+        ../~$MP2201 Assignment 2 - Sem 1 2024-2025.docx
+        ../~$MP2201_Tutorial_3_Basics_Of_Counting_Pt1-Q5_Solns.docx
+        ../~$MP2340-Lab-01-Exercise-Sheet-2.docx
+        ../~$Macro-chap01.pptx
+        ../~$ON2000_Final_Exam_May2024.docx
+        ../~$ON2024 Question Bank-2.docx
+        ../~$ON2024 Question Bank.docx
+        ../~$PR8e_ch01.pptx
+        ../~$PR8e_ch02 .pptx
+        ../~$PR8e_ch03.pptx
+        ../~$PR8e_ch09.pptx
+        ../~$Principles 16 - Money and Banking.pptx
+        ../~$S Template.docx
+        ../~$S_Resume.docx
+        ../~$cument.docx
+        ../~$lyia's Answers.docx
+        ../~$m- ocean- confirm.doc
+        ../~$mankiw8e-chap01.pptx
+        ../~$mankiw8e-chap02-2.pptx
+        ../~$mankiw8e-chap10.pptx
+        ../~$mankiw8e-chap11.pptx
+        ../~$mankiw8e-chap12.pptx
+        ../~$mankiw8e-chap13.pptx
+        ../~$py of Question Bank -ECON.docx
+        ../~$torial Sheet 1.docx
+        ../~$urse Outline.doc
+no changes added to commit (use "git add" and/or "git commit -a")
