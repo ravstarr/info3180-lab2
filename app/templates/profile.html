@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class="profile-wrapper">
+  <div class="profile-card">
+
+    <!-- Green header section -->
+    <div class="profile-header">
+      <img src="{{ url_for('static', filename='img/profile.png') }}" alt="Profile Photo" class="profile-photo">
+      <h2 class="profile-name">Ravaughn Marsh</h2>
+      <p class="profile-username">@rmarsh</p>
+      <p class="profile-location">Kingston, Jamaica</p>
+      <p class="profile-date-joined">Joined {{ date_joined }}</p>
+    </div>
+
+    <!-- White body section -->
+    <div class="profile-body">
+      <p class="profile-bio">
+        I am a passionate software developer who loves building web applications
+        and solving real-world problems. Feel free to reach out if you'd like to
+        collaborate on a project.
+      </p>
+
+      <hr class="profile-divider">
+
+      <div class="profile-stats">
+        <div class="stat">
+          <span class="stat-number">7</span>
+          <span class="stat-label">Posts</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">100</span>
+          <span class="stat-label">Following</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">250</span>
+          <span class="stat-label">Followers</span>
+        </div>
+      </div>
+
+      <div class="profile-follow">
+        <button class="btn follow-btn">Follow</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+{% endblock %}
